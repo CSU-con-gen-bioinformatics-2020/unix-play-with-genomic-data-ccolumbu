@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -1699,6 +1698,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1780,8 +1780,8 @@ pre code, pre, code {
 <pre class="bash"><code>cd ~
 pwd</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiL1VzZXJzL2VyaXFcbiJ9 -->
-<pre><code>/Users/eriq</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiL1VzZXJzL2Nhc3NpZVxuIn0= -->
+<pre><code>/Users/cassie</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -1790,8 +1790,10 @@ pwd</code></pre>
 <h1><span class="header-section-number">2</span> Use echo to print <code>my name is ----</code> to stdout. Where <code>----</code> is replaced by your name</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZWNobyBcIm15IG5hbWUgaXMgRXJpY1wiXG5gYGAifQ== -->
-<pre class="bash"><code>echo &quot;my name is Eric&quot;</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuYGBgYmFzaFxuZWNobyBcXG15IG5hbWUgaXMgRXJpY1xcXG5gYGBcbmBgYCJ9 -->
+<p><code>bash</code>bash echo name is Eric<br />
+</p>
+<pre><code></code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoibXkgbmFtZSBpcyBFcmljXG4ifQ== -->
 <pre><code>my name is Eric</code></pre>
@@ -1803,6 +1805,12 @@ pwd</code></pre>
 <h1><span class="header-section-number">3</span> now, really, answer the above question as yourself</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZWNobyBcIm15IG5hbWUgaXMgQ2Fzc2llXCJcbmBgYCJ9 -->
+<pre class="bash"><code>echo &quot;my name is Cassie&quot;</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibXkgbmFtZSBpcyBDYXNzaWVcbiJ9 -->
+<pre><code>my name is Cassie</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1810,6 +1818,12 @@ pwd</code></pre>
 <h1><span class="header-section-number">4</span> print the absolute path of the top level of the homework directory where this is</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucHdkXG5gYGAifQ== -->
+<pre class="bash"><code>pwd</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiL1VzZXJzL2Nhc3NpZS9EZXNrdG9wL0VyaWNzX2NsYXNzL3VuaXgtcGxheS13aXRoLWdlbm9taWMtZGF0YS1jY29sdW1idVxuIn0= -->
+<pre><code>/Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1817,6 +1831,23 @@ pwd</code></pre>
 <h1><span class="header-section-number">5</span> list, in long format, all the files and directories in this homework directory</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWxcbmBgYCJ9 -->
+<pre class="bash"><code>ls -l</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidG90YWwgMTQ0MFxuLXJ3LXItLXItLSAgIDEgY2Fzc2llICBzdGFmZiAgICAgMjI5IEphbiAyOCAxNzowNiBSRUFETUUubWRcbmRyd3hyLXhyLXggICA0IGNhc3NpZSAgc3RhZmYgICAgIDEyOCBKYW4gMjggMTc6MDYgYmFtXG4tcnd4ci14ci14ICAgMSBjYXNzaWUgIHN0YWZmICAgICAgOTYgSmFuIDI4IDE3OjA2IGNvdW50X2ZpbGVzLnNoXG5kcnd4ci14ci14ICA2NiBjYXNzaWUgIHN0YWZmICAgIDIxMTIgSmFuIDI4IDE3OjA2IGZhc3RxXG5kcnd4ci14ci14ICAgMyBjYXNzaWUgIHN0YWZmICAgICAgOTYgSmFuIDI4IDE3OjA2IG1ldGFkYXRhXG5kcnd4ci14ci14ICAgNCBjYXNzaWUgIHN0YWZmICAgICAxMjggSmFuIDI4IDE3OjA2IHNhbVxuZHJ3eHIteHIteCAgIDcgY2Fzc2llICBzdGFmZiAgICAgMjI0IEphbiAyOCAxNzowNiBzaWxseVxuLXJ3LXItLXItLSAgIDEgY2Fzc2llICBzdGFmZiAgICAgMTM1IEphbiAyOCAxNzowNiBzbWFsbF9oZWFkZXJzLmNzc1xuLXJ3LXItLXItLUAgIDEgY2Fzc2llICBzdGFmZiAgICAgMjA1IEphbiAyOSAxNzowMSB0ZWVueS1nZW5vbWljLWRhdGEuUnByb2pcbi1ydy1yLS1yLS0gICAxIGNhc3NpZSAgc3RhZmYgICAgOTY4NCBKYW4gMjggMTc6MDYgdW5peC1ob21ld29yay5SbWRcbi1ydy1yLS1yLS0gICAxIGNhc3NpZSAgc3RhZmYgIDcwNzkxMyBKYW4gMjggMTc6MDYgdW5peC1ob21ld29yay5uYi5odG1sXG4ifQ== -->
+<pre><code>total 1440
+-rw-r--r--   1 cassie  staff     229 Jan 28 17:06 README.md
+drwxr-xr-x   4 cassie  staff     128 Jan 28 17:06 bam
+-rwxr-xr-x   1 cassie  staff      96 Jan 28 17:06 count_files.sh
+drwxr-xr-x  66 cassie  staff    2112 Jan 28 17:06 fastq
+drwxr-xr-x   3 cassie  staff      96 Jan 28 17:06 metadata
+drwxr-xr-x   4 cassie  staff     128 Jan 28 17:06 sam
+drwxr-xr-x   7 cassie  staff     224 Jan 28 17:06 silly
+-rw-r--r--   1 cassie  staff     135 Jan 28 17:06 small_headers.css
+-rw-r--r--@  1 cassie  staff     205 Jan 29 17:01 teeny-genomic-data.Rproj
+-rw-r--r--   1 cassie  staff    9684 Jan 28 17:06 unix-homework.Rmd
+-rw-r--r--   1 cassie  staff  707913 Jan 28 17:06 unix-homework.nb.html</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Note that some of the file names might look garbled in the Rmarkdown output. This is a consequency of RMarkdown/html not playing well with the shell’s way of colorizing <code>ls</code> output.</p>
@@ -1825,29 +1856,82 @@ pwd</code></pre>
 <h1><span class="header-section-number">6</span> There is a directory called <code>.git</code> in here that didn’t get listed. List everything again, but make sure <code>.git</code> is in the output</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWFsXG5gYGAifQ== -->
+<pre class="bash"><code>ls -al</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidG90YWwgMTQ3MlxuZHJ3eHIteHIteCAgMTcgY2Fzc2llICBzdGFmZiAgICAgNTQ0IEphbiAyOSAxNzowNiAuXG5kcnd4ci14ci14ICAxMCBjYXNzaWUgIHN0YWZmICAgICAzMjAgSmFuIDI4IDE3OjA2IC4uXG4tcnctci0tci0tICAgMSBjYXNzaWUgIHN0YWZmICAgICAgIDAgSmFuIDI5IDE2OjU5IC5SaGlzdG9yeVxuZHJ3eHIteHIteCAgIDQgY2Fzc2llICBzdGFmZiAgICAgMTI4IEphbiAyOCAxNzowNiAuUnByb2oudXNlclxuZHJ3eHIteHIteCAgMTIgY2Fzc2llICBzdGFmZiAgICAgMzg0IEphbiAyOSAxNzowNiAuZ2l0XG4tcnctci0tci0tICAgMSBjYXNzaWUgIHN0YWZmICAgICAxMjYgSmFuIDI4IDE3OjA2IC5naXRpZ25vcmVcbi1ydy1yLS1yLS0gICAxIGNhc3NpZSAgc3RhZmYgICAgIDIyOSBKYW4gMjggMTc6MDYgUkVBRE1FLm1kXG5kcnd4ci14ci14ICAgNCBjYXNzaWUgIHN0YWZmICAgICAxMjggSmFuIDI4IDE3OjA2IGJhbVxuLXJ3eHIteHIteCAgIDEgY2Fzc2llICBzdGFmZiAgICAgIDk2IEphbiAyOCAxNzowNiBjb3VudF9maWxlcy5zaFxuZHJ3eHIteHIteCAgNjYgY2Fzc2llICBzdGFmZiAgICAyMTEyIEphbiAyOCAxNzowNiBmYXN0cVxuZHJ3eHIteHIteCAgIDMgY2Fzc2llICBzdGFmZiAgICAgIDk2IEphbiAyOCAxNzowNiBtZXRhZGF0YVxuZHJ3eHIteHIteCAgIDQgY2Fzc2llICBzdGFmZiAgICAgMTI4IEphbiAyOCAxNzowNiBzYW1cbmRyd3hyLXhyLXggICA3IGNhc3NpZSAgc3RhZmYgICAgIDIyNCBKYW4gMjggMTc6MDYgc2lsbHlcbi1ydy1yLS1yLS0gICAxIGNhc3NpZSAgc3RhZmYgICAgIDEzNSBKYW4gMjggMTc6MDYgc21hbGxfaGVhZGVycy5jc3Ncbi1ydy1yLS1yLS1AICAxIGNhc3NpZSAgc3RhZmYgICAgIDIwNSBKYW4gMjkgMTc6MDEgdGVlbnktZ2Vub21pYy1kYXRhLlJwcm9qXG4tcnctci0tci0tICAgMSBjYXNzaWUgIHN0YWZmICAgIDk3MTYgSmFuIDI5IDE3OjA2IHVuaXgtaG9tZXdvcmsuUm1kXG4tcnctci0tci0tICAgMSBjYXNzaWUgIHN0YWZmICA3MTA0OTkgSmFuIDI5IDE3OjA2IHVuaXgtaG9tZXdvcmsubmIuaHRtbFxuIn0= -->
+<pre><code>total 1472
+drwxr-xr-x  17 cassie  staff     544 Jan 29 17:06 .
+drwxr-xr-x  10 cassie  staff     320 Jan 28 17:06 ..
+-rw-r--r--   1 cassie  staff       0 Jan 29 16:59 .Rhistory
+drwxr-xr-x   4 cassie  staff     128 Jan 28 17:06 .Rproj.user
+drwxr-xr-x  12 cassie  staff     384 Jan 29 17:06 .git
+-rw-r--r--   1 cassie  staff     126 Jan 28 17:06 .gitignore
+-rw-r--r--   1 cassie  staff     229 Jan 28 17:06 README.md
+drwxr-xr-x   4 cassie  staff     128 Jan 28 17:06 bam
+-rwxr-xr-x   1 cassie  staff      96 Jan 28 17:06 count_files.sh
+drwxr-xr-x  66 cassie  staff    2112 Jan 28 17:06 fastq
+drwxr-xr-x   3 cassie  staff      96 Jan 28 17:06 metadata
+drwxr-xr-x   4 cassie  staff     128 Jan 28 17:06 sam
+drwxr-xr-x   7 cassie  staff     224 Jan 28 17:06 silly
+-rw-r--r--   1 cassie  staff     135 Jan 28 17:06 small_headers.css
+-rw-r--r--@  1 cassie  staff     205 Jan 29 17:01 teeny-genomic-data.Rproj
+-rw-r--r--   1 cassie  staff    9716 Jan 29 17:06 unix-homework.Rmd
+-rw-r--r--   1 cassie  staff  710499 Jan 29 17:06 unix-homework.nb.html</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
 <div id="what-are-the-other-hidden-filesdirectories-that-show-up-in-the-above-listing-just-list-them-in-the-fenced-text-block-below" class="section level1">
 <h1><span class="header-section-number">7</span> What are the other hidden files/directories that show up in the above listing? Just list them in the fenced text block below</h1>
-<pre><code></code></pre>
+<pre><code>.
+..
+.Rhistory
+.Rproj.user
+.gitignore</code></pre>
 </div>
 <div id="list-long-format-the-contents-of-the-directory-.git" class="section level1">
 <h1><span class="header-section-number">8</span> List (long format) the contents of the directory <code>.git</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWwgLmdpdC9cbmBgYCJ9 -->
+<pre class="bash"><code>ls -l .git/</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidG90YWwgNTZcbi1ydy1yLS1yLS0gICAxIGNhc3NpZSAgc3RhZmYgICAgMjMgSmFuIDI4IDE3OjA2IEhFQURcbi1ydy1yLS1yLS0gICAxIGNhc3NpZSAgc3RhZmYgICAzNjEgSmFuIDI4IDE3OjA2IGNvbmZpZ1xuLXJ3LXItLXItLSAgIDEgY2Fzc2llICBzdGFmZiAgICA3MyBKYW4gMjggMTc6MDYgZGVzY3JpcHRpb25cbmRyd3hyLXhyLXggIDEzIGNhc3NpZSAgc3RhZmYgICA0MTYgSmFuIDI4IDE3OjA2IGhvb2tzXG4tcnctci0tci0tICAgMSBjYXNzaWUgIHN0YWZmICA4Mzc0IEphbiAyOSAxNzowMSBpbmRleFxuZHJ3eHIteHIteCAgIDMgY2Fzc2llICBzdGFmZiAgICA5NiBKYW4gMjggMTc6MDYgaW5mb1xuZHJ3eHIteHIteCAgIDQgY2Fzc2llICBzdGFmZiAgIDEyOCBKYW4gMjggMTc6MDYgbG9nc1xuZHJ3eHIteHIteCAgNzUgY2Fzc2llICBzdGFmZiAgMjQwMCBKYW4gMjggMTc6MDYgb2JqZWN0c1xuLXJ3LXItLXItLSAgIDEgY2Fzc2llICBzdGFmZiAgIDExNCBKYW4gMjggMTc6MDYgcGFja2VkLXJlZnNcbmRyd3hyLXhyLXggICA1IGNhc3NpZSAgc3RhZmYgICAxNjAgSmFuIDI4IDE3OjA2IHJlZnNcbiJ9 -->
+<pre><code>total 56
+-rw-r--r--   1 cassie  staff    23 Jan 28 17:06 HEAD
+-rw-r--r--   1 cassie  staff   361 Jan 28 17:06 config
+-rw-r--r--   1 cassie  staff    73 Jan 28 17:06 description
+drwxr-xr-x  13 cassie  staff   416 Jan 28 17:06 hooks
+-rw-r--r--   1 cassie  staff  8374 Jan 29 17:01 index
+drwxr-xr-x   3 cassie  staff    96 Jan 28 17:06 info
+drwxr-xr-x   4 cassie  staff   128 Jan 28 17:06 logs
+drwxr-xr-x  75 cassie  staff  2400 Jan 28 17:06 objects
+-rw-r--r--   1 cassie  staff   114 Jan 28 17:06 packed-refs
+drwxr-xr-x   5 cassie  staff   160 Jan 28 17:06 refs</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
 <div id="if-you-wanted-to-type-ls-fastqdpch_plate1_a06_s6.r1.fq.gz-on-the-command-line-what-is-the-fewest-keystrokes-that-can-get-you-fastqdpch_plate1_a06_s6.r1.fq.gz-using-tab-completion" class="section level1">
 <h1><span class="header-section-number">9</span> if you wanted to type <code>ls fastq/DPCh_plate1_A06_S6.R1.fq.gz</code> on the command line, what is the fewest keystrokes that can get you <code>fastq/DPCh_plate1_A06_S6.R1.fq.gz</code> using TAB completion?</h1>
 <p>I did it in 10 (counting TABs)…</p>
-<pre><code></code></pre>
+<pre><code>10 as well!</code></pre>
 </div>
 <div id="make-a-new-directory-called-lonely-fastqs-and-inside-of-that-two-directories-r1-and-r2" class="section level1">
 <h1><span class="header-section-number">10</span> make a new directory called <code>lonely-fastqs</code>, and inside of that, two directories R1 and R2</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgbG9uZWx5LWZhc3Rxc1xuY2QgbG9uZWx5LWZhc3Rxc1xubWtkaXIgUjFcbm1rZGlyIFIyXG5gYGAifQ== -->
+<pre class="bash"><code>mkdir lonely-fastqs
+cd lonely-fastqs
+mkdir R1
+mkdir R2</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibWtkaXI6IGxvbmVseS1mYXN0cXM6IEZpbGUgZXhpc3RzXG5ta2RpcjogUjE6IEZpbGUgZXhpc3RzXG4ifQ== -->
+<pre><code>mkdir: lonely-fastqs: File exists
+mkdir: R1: File exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1855,6 +1939,10 @@ pwd</code></pre>
 <h1><span class="header-section-number">11</span> Copy (not move) all the read1 (<code>R1</code>) fastq files in <code>fastqs</code> into <code>lonely-fastqs/R1</code> and all the read2 fastqs into <code>lonely-fastqs/R2</code>. When you are done, on the next line in the code block, list the contents of <code>lonely-fastqs/R1</code> and <code>lonely-fastqs/R2</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY2QgZmFzdHFcbmNwICpSMS5mcS5neiAvVXNlcnMvY2Fzc2llL0Rlc2t0b3AvRXJpY3NfY2xhc3MvdW5peC1wbGF5LXdpdGgtZ2Vub21pYy1kYXRhLWNjb2x1bWJ1L2xvbmVseS1mYXN0cXMvUjEvXG5gYGAifQ== -->
+<pre class="bash"><code>cd fastq
+cp *R1.fq.gz /Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/lonely-fastqs/R1/</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1862,6 +1950,49 @@ pwd</code></pre>
 <h1><span class="header-section-number">12</span> do a recursive, short listing of the contents of <code>lonely-fastqs</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLVIgL1VzZXJzL2Nhc3NpZS9EZXNrdG9wL0VyaWNzX2NsYXNzL3VuaXgtcGxheS13aXRoLWdlbm9taWMtZGF0YS1jY29sdW1idS9sb25lbHktZmFzdHFzL1xuYGBgIn0= -->
+<pre class="bash"><code>ls -R /Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/lonely-fastqs/</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUjFcblIyXG5cbi9Vc2Vycy9jYXNzaWUvRGVza3RvcC9Fcmljc19jbGFzcy91bml4LXBsYXktd2l0aC1nZW5vbWljLWRhdGEtY2NvbHVtYnUvbG9uZWx5LWZhc3Rxcy8vUjE6XG5EUENoX3BsYXRlMV9BMDVfUzUuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0EwNl9TNi5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQTExX1MxMS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQTEyX1MxMi5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQjA1X1MxNy5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQjA2X1MxOC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQjExX1MyMy5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQjEyX1MyNC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQzA1X1MyOS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQzA2X1MzMC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQzExX1MzNS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfQzEyX1MzNi5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRDA1X1M0MS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRDA2X1M0Mi5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRDExX1M0Ny5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRDEyX1M0OC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRTA1X1M1My5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRTA2X1M1NC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRTExX1M1OS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRTEyX1M2MC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRjA1X1M2NS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRjA2X1M2Ni5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRjExX1M3MS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRjEyX1M3Mi5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRzA1X1M3Ny5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRzA2X1M3OC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRzExX1M4My5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfRzEyX1M4NC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfSDA1X1M4OS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfSDA2X1M5MC5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfSDExX1M5NS5SMS5mcS5nelxuRFBDaF9wbGF0ZTFfSDEyX1M5Ni5SMS5mcS5nelxuXG4vVXNlcnMvY2Fzc2llL0Rlc2t0b3AvRXJpY3NfY2xhc3MvdW5peC1wbGF5LXdpdGgtZ2Vub21pYy1kYXRhLWNjb2x1bWJ1L2xvbmVseS1mYXN0cXMvL1IyOlxuIn0= -->
+<pre><code>R1
+R2
+
+/Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/lonely-fastqs//R1:
+DPCh_plate1_A05_S5.R1.fq.gz
+DPCh_plate1_A06_S6.R1.fq.gz
+DPCh_plate1_A11_S11.R1.fq.gz
+DPCh_plate1_A12_S12.R1.fq.gz
+DPCh_plate1_B05_S17.R1.fq.gz
+DPCh_plate1_B06_S18.R1.fq.gz
+DPCh_plate1_B11_S23.R1.fq.gz
+DPCh_plate1_B12_S24.R1.fq.gz
+DPCh_plate1_C05_S29.R1.fq.gz
+DPCh_plate1_C06_S30.R1.fq.gz
+DPCh_plate1_C11_S35.R1.fq.gz
+DPCh_plate1_C12_S36.R1.fq.gz
+DPCh_plate1_D05_S41.R1.fq.gz
+DPCh_plate1_D06_S42.R1.fq.gz
+DPCh_plate1_D11_S47.R1.fq.gz
+DPCh_plate1_D12_S48.R1.fq.gz
+DPCh_plate1_E05_S53.R1.fq.gz
+DPCh_plate1_E06_S54.R1.fq.gz
+DPCh_plate1_E11_S59.R1.fq.gz
+DPCh_plate1_E12_S60.R1.fq.gz
+DPCh_plate1_F05_S65.R1.fq.gz
+DPCh_plate1_F06_S66.R1.fq.gz
+DPCh_plate1_F11_S71.R1.fq.gz
+DPCh_plate1_F12_S72.R1.fq.gz
+DPCh_plate1_G05_S77.R1.fq.gz
+DPCh_plate1_G06_S78.R1.fq.gz
+DPCh_plate1_G11_S83.R1.fq.gz
+DPCh_plate1_G12_S84.R1.fq.gz
+DPCh_plate1_H05_S89.R1.fq.gz
+DPCh_plate1_H06_S90.R1.fq.gz
+DPCh_plate1_H11_S95.R1.fq.gz
+DPCh_plate1_H12_S96.R1.fq.gz
+
+/Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/lonely-fastqs//R2:</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1869,6 +2000,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">13</span> Use the recursive (-r) option to remove <code>lonely-fastqs</code> and its contents</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucm0gLXIgbG9uZWx5LWZhc3Rxc1xuYGBgIn0= -->
+<pre class="bash"><code>rm -r lonely-fastqs</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1876,6 +2010,13 @@ pwd</code></pre>
 <h1><span class="header-section-number">14</span> Make two new directories in the top level of the repo called <code>fq_AB</code> and <code>fq_notAB</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgZnFfQUJcbm1rZGlyIGZxX25vdEFCXG5gYGAifQ== -->
+<pre class="bash"><code>mkdir fq_AB
+mkdir fq_notAB</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibWtkaXI6IGZxX0FCOiBGaWxlIGV4aXN0c1xuIn0= -->
+<pre><code>mkdir: fq_AB: File exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>If you get an error because you already created those directories, that is OK directories are there, it’s all good…</p>
@@ -1884,6 +2025,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">15</span> Using the <code>[</code> <code>]</code> copy the R1 files in <code>fastqs</code> that belong to sample names (the part immediately after <code>DPCh_plate1_</code>) starting with an <code>A</code> or <code>B</code> to <code>fq_AB</code>.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY3AgL1VzZXJzL2Nhc3NpZS9EZXNrdG9wL0VyaWNzX2NsYXNzL3VuaXgtcGxheS13aXRoLWdlbm9taWMtZGF0YS1jY29sdW1idS9mYXN0cS9EUENoX3BsYXRlMV9bQS1CXSouZnEuZ3ogIC9Vc2Vycy9jYXNzaWUvRGVza3RvcC9Fcmljc19jbGFzcy91bml4LXBsYXktd2l0aC1nZW5vbWljLWRhdGEtY2NvbHVtYnUvZnFfQUJcbmBgYCJ9 -->
+<pre class="bash"><code>cp /Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/fastq/DPCh_plate1_[A-B]*.fq.gz  /Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/fq_AB</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1891,6 +2035,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">16</span> Now, using negation (<code>^</code>) with <code>[</code> and <code>]</code> copy all the R1 files that don’t belong to sample names starting with an <code>A</code> or a <code>B</code> to <code>fq_notAB</code>. When you are done, on the next line in the code block, list the contents of <code>fq_AB</code> and <code>fq_notAB</code>.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY3AgL1VzZXJzL2Nhc3NpZS9EZXNrdG9wL0VyaWNzX2NsYXNzL3VuaXgtcGxheS13aXRoLWdlbm9taWMtZGF0YS1jY29sdW1idS9mYXN0cS9EUENoX3BsYXRlMV9bXkEtQl0qLmZxLmd6ICAvVXNlcnMvY2Fzc2llL0Rlc2t0b3AvRXJpY3NfY2xhc3MvdW5peC1wbGF5LXdpdGgtZ2Vub21pYy1kYXRhLWNjb2x1bWJ1L2ZxX25vdEFCXG5gYGAifQ== -->
+<pre class="bash"><code>cp /Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/fastq/DPCh_plate1_[^A-B]*.fq.gz  /Users/cassie/Desktop/Erics_class/unix-play-with-genomic-data-ccolumbu/fq_notAB</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1898,6 +2045,13 @@ pwd</code></pre>
 <h1><span class="header-section-number">17</span> Remove <code>fq_AB</code> and <code>fq_notAB</code>, and their contents</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucm0gLXIgZnFfQUJcbnJtIC1yIGZxX25vdEFCXG5gYGAifQ== -->
+<pre class="bash"><code>rm -r fq_AB
+rm -r fq_notAB</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicm06IGZxX0FCOiBObyBzdWNoIGZpbGUgb3IgZGlyZWN0b3J5XG4ifQ== -->
+<pre><code>rm: fq_AB: No such file or directory</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1905,6 +2059,24 @@ pwd</code></pre>
 <h1><span class="header-section-number">18</span> Using the <code>{,}</code> construct create five directories named <code>dir_A</code>, <code>dir_C</code>, <code>dir_E</code>, <code>dir_G</code>, and <code>dir_I</code>, and list them (but not their contents) when you are done</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgZGlyX3tBLEMsRSxHLEl9XG5scyAtZCBkaXJfe0EsQyxFLEcsSX1cbmBgYCJ9 -->
+<pre class="bash"><code>mkdir dir_{A,C,E,G,I}
+ls -d dir_{A,C,E,G,I}</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiZGlyX0FcbmRpcl9DXG5kaXJfRVxuZGlyX0dcbmRpcl9JXG4ifQ== -->
+<pre><code>dir_A
+dir_C
+dir_E
+dir_G
+dir_I</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibWtkaXI6IGRpcl9BOiBGaWxlIGV4aXN0c1xubWtkaXI6IGRpcl9DOiBGaWxlIGV4aXN0c1xubWtkaXI6IGRpcl9FOiBGaWxlIGV4aXN0c1xubWtkaXI6IGRpcl9HOiBGaWxlIGV4aXN0c1xubWtkaXI6IGRpcl9JOiBGaWxlIGV4aXN0c1xuIn0= -->
+<pre><code>mkdir: dir_A: File exists
+mkdir: dir_C: File exists
+mkdir: dir_E: File exists
+mkdir: dir_G: File exists
+mkdir: dir_I: File exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1912,20 +2084,36 @@ pwd</code></pre>
 <h1><span class="header-section-number">19</span> Using globbing, remove <code>dir_A</code>, <code>dir_C</code>, <code>dir_E</code>, <code>dir_G</code>, and <code>dir_I</code>, using a command with 8 characters (including spaces)</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucm0gLXIgZCpcbmBgYCJ9 -->
+<pre class="bash"><code>rm -r d*</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicm06IGQqOiBObyBzdWNoIGZpbGUgb3IgZGlyZWN0b3J5XG4ifQ== -->
+<pre><code>rm: d*: No such file or directory</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
-<div id="create-a-directory-called-nice_dir_name-and-then-use-echo-redirecting-its-output-to-create-a-file-called-nice_file_name-inside-of-nice_dir_name-whose-contents-is-the-string-a-string-in-a-file" class="section level1">
-<h1><span class="header-section-number">20</span> Create a directory called <code>nice_dir_name</code> and then use <code>echo</code>, redirecting its output to create a file called <code>nice_file_name</code> inside of <code>nice_dir_name</code> whose contents is the string <code>A string in a file!</code></h1>
+<div id="create-a-dirrectory-called-nice_dir_name-and-then-use-echo-redirecting-its-output-to-create-a-file-called-nice_file_name-inside-of-nice_dir_name-whose-contents-is-the-string-a-string-in-a-file" class="section level1">
+<h1><span class="header-section-number">20</span> Create a dirrectory called <code>nice_dir_name</code> and then use <code>echo</code>, redirecting its output to create a file called <code>nice_file_name</code> inside of <code>nice_dir_name</code> whose contents is the string <code>A string in a file!</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgbmljZV9kaXJfbmFtZVxuYGBgIn0= -->
+<pre class="bash"><code>mkdir nice_dir_name</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>note: echo wouldn’t work with i ended “A string in a file” with an !</p>
 </div>
 <div id="catenate-the-contents-of-nice_dir_namenice_file_name-to-stdout" class="section level1">
 <h1><span class="header-section-number">21</span> Catenate the contents of <code>nice_dir_name/nice_file_name</code> to <em>stdout</em></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY2F0IG5pY2VfZGlyX25hbWUvbmljZV9maWxlX25hbWVcbmBgYCJ9 -->
+<pre class="bash"><code>cat nice_dir_name/nice_file_name</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQSBzdHJpbmcgaW4gYSBmaWxlXG4ifQ== -->
+<pre><code>A string in a file</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1933,13 +2121,27 @@ pwd</code></pre>
 <h1><span class="header-section-number">22</span> Create a directory called <code>bad directory name with spaces</code>, and then, with redirection, create a file inside it, named <code>bad file name with spaces</code> whose contents are the string <code>Whoa! No spaces, please!</code>. Use backslash escaping instead of quoting</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgYmFkXFwgZGlyZWN0b3J5XFwgbmFtZVxcIHdpdGhcXCBzcGFjZXMvIFxuZWNobyBcIldob2EsIE5vIHNwYWNlcywgcGxlYXNlXCIgPiBiYWRcXCBkaXJlY3RvcnlcXCBuYW1lXFwgd2l0aFxcIHNwYWNlcy9iYWRcXCBmaWxlXFwgbmFtZVxcIHdpdGhcXCBzcGFjZXNcbmBgYCJ9 -->
+<pre class="bash"><code>mkdir bad\ directory\ name\ with\ spaces/ 
+echo &quot;Whoa, No spaces, please&quot; &gt; bad\ directory\ name\ with\ spaces/bad\ file\ name\ with\ spaces</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibWtkaXI6IGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlcy86IEZpbGUgZXhpc3RzXG4ifQ== -->
+<pre><code>mkdir: bad directory name with spaces/: File exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Again, it did not work with the ! points in the sentence.</p>
 </div>
 <div id="catenate-the-contents-of-bad-directory-name-with-spacesbad-file-name-with-spaces" class="section level1">
 <h1><span class="header-section-number">23</span> Catenate the contents of <code>bad directory name with spaces/bad file name with spaces</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY2F0IGJhZFxcIGRpcmVjdG9yeVxcIG5hbWVcXCB3aXRoXFwgc3BhY2VzL2JhZFxcIGZpbGVcXCBuYW1lXFwgd2l0aFxcIHNwYWNlcyBcbmBgYCJ9 -->
+<pre class="bash"><code>cat bad\ directory\ name\ with\ spaces/bad\ file\ name\ with\ spaces </code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiV2hvYSwgbm8gc3BhY2VzLCBwbGVhc2VcbiJ9 -->
+<pre><code>Whoa, no spaces, please</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1947,6 +2149,13 @@ pwd</code></pre>
 <h1><span class="header-section-number">24</span> list the directories (just the names, not the contents (<code>-d</code>)) <code>bad directory name with spaces</code> and <code>nice_dir_name</code>.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWQgYmFkXFwgZGlyZWN0b3J5XFwgbmFtZVxcIHdpdGhcXCBzcGFjZXMvIG5pY2VfZGlyX25hbWUvXG5gYGAifQ== -->
+<pre class="bash"><code>ls -d bad\ directory\ name\ with\ spaces/ nice_dir_name/</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiYmFkIGRpcmVjdG9yeSBuYW1lIHdpdGggc3BhY2VzL1xubmljZV9kaXJfbmFtZS9cbiJ9 -->
+<pre><code>bad directory name with spaces/
+nice_dir_name/</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1954,21 +2163,37 @@ pwd</code></pre>
 <h1><span class="header-section-number">25</span> Once you are convinced that you can list the directories correctly in your terminal, recall that <code>ls</code> command and replace <code>ls</code> with <code>rm -r</code> to remove them</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucm0gLXIgYmFkXFwgZGlyZWN0b3J5XFwgbmFtZVxcIHdpdGhcXCBzcGFjZXMvIG5pY2VfZGlyX25hbWUvXG5gYGAifQ== -->
+<pre class="bash"><code>rm -r bad\ directory\ name\ with\ spaces/ nice_dir_name/</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicm06IGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlcy86IE5vIHN1Y2ggZmlsZSBvciBkaXJlY3RvcnlcbnJtOiBuaWNlX2Rpcl9uYW1lLzogTm8gc3VjaCBmaWxlIG9yIGRpcmVjdG9yeVxuIn0= -->
+<pre><code>rm: bad directory name with spaces/: No such file or directory
+rm: nice_dir_name/: No such file or directory</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
 <div id="why-is-it-a-good-idea-to-ls-things-before-removing-them" class="section level1">
 <h1><span class="header-section-number">26</span> Why is it a good idea to <code>ls</code> things before removing them?</h1>
-<pre><code></code></pre>
+<pre><code>To test what the remove command would actually remove. It is like a practice run.</code></pre>
 </div>
 <div id="if-you-had-just-typed-rm--r-bad-directory-name-with-spaces-what-would-unix-have-tried-to-remove" class="section level1">
 <h1><span class="header-section-number">27</span> If you had just typed <code>rm -r bad directory name with spaces</code> what would Unix have tried to remove?</h1>
-<pre><code></code></pre>
+<pre><code>It would have tried to remove a directory named bad, a directory named directory and so on...</code></pre>
 </div>
 <div id="there-are-bam-sam-and-fastq-files-in-the-appropriately-named-directories-for-sample-a05_s5.-make-a-directory-named-a05_s5-and-copy-all-those-files-into-that-new-directory.-list-the-directory-when-you-are-done." class="section level1">
 <h1><span class="header-section-number">28</span> There are bam, sam, and fastq files, in the appropriately named directories for sample <code>A05_S5</code>. Make a directory named <code>A05_S5</code> and copy all those files into that new directory. List the directory when you are done.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgQTA1X1M1IFxuY3Agc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW0gQTA1X1M1XG5jcCBiYW0vRFBDaF9wbGF0ZTFfQTA1X1M1LmJhbSBBMDVfUzVcbmNwIGZhc3RxLypBMDVfUzUuUj8uZnEuZ3ogQTA1X1M1XG5gYGAifQ== -->
+<pre class="bash"><code>mkdir A05_S5 
+cp sam/DPCh_plate1_A05_S5.sam A05_S5
+cp bam/DPCh_plate1_A05_S5.bam A05_S5
+cp fastq/*A05_S5.R?.fq.gz A05_S5</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibWtkaXI6IEEwNV9TNTogRmlsZSBleGlzdHNcbiJ9 -->
+<pre><code>mkdir: A05_S5: File exists</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1976,6 +2201,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">29</span> remove the directory <code>A05_S5</code> and its contents</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucm0gLXIgQTA1X1M1XG5gYGAifQ== -->
+<pre class="bash"><code>rm -r A05_S5</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1983,6 +2211,12 @@ pwd</code></pre>
 <h1><span class="header-section-number">30</span> Use <code>ls</code> to try to list the file <code>it_aint_here</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgaXRfYWludF9oZXJlXG5gYGAifQ== -->
+<pre class="bash"><code>ls it_aint_here</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibHM6IGl0X2FpbnRfaGVyZTogTm8gc3VjaCBmaWxlIG9yIGRpcmVjdG9yeVxuIn0= -->
+<pre><code>ls: it_aint_here: No such file or directory</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1990,6 +2224,13 @@ pwd</code></pre>
 <h1><span class="header-section-number">31</span> Now, do the same thing but redirect <em>stderr</em> into a file called <code>my_bad.txt</code>, and then catenate the contents of that file, and then remove it</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgXCJpdF9haW50X2hlcmVcIiAyPiBteV9iYWQudHh0IFxuY2F0IG15X2JhZC50eHQgXG5gYGAifQ== -->
+<pre class="bash"><code>ls &quot;it_aint_here&quot; 2&gt; my_bad.txt 
+cat my_bad.txt </code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibHM6IGl0X2FpbnRfaGVyZTogTm8gc3VjaCBmaWxlIG9yIGRpcmVjdG9yeVxuIn0= -->
+<pre><code>ls: it_aint_here: No such file or directory</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1997,6 +2238,21 @@ pwd</code></pre>
 <h1><span class="header-section-number">32</span> The files in <code>fastq</code> are text files, but they are all gzipped. Using <code>gzcat</code> and a pipe, view the first 8 lines of <code>fastq/DPCh_plate1_C11_S35.R1.fq.gz</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZ3pjYXQgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMS5mcS5neiB8IGhlYWQgXG5gYGAifQ== -->
+<pre class="bash"><code>gzcat fastq/DPCh_plate1_C11_S35.R1.fq.gz | head </code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQEswMDM2NDo2NDpIVFlZQ0JCWFg6MToxMTAxOjE4MjQ6NDgxOTIvMVxuR1RBR0FBVEFBVEFHVEdBQVRDQUFBVENBQUFUR1RUQVRUVEdUQ0FDQVRHQ0dDVEdBQVRBQ0FBQ0FHR1RHVEdHQUNDVFRBQ0FHVEdBQUFUR0NUVENDVFRBQ0FBR0NDQ1RUQUFDQ0FBQ0FBVEdDQUdUVFRUQUFHQUFBQUFUR0FHVEdUR0FHQVRBQUdUQUFBQUFBVEFHQUFBQVxuK1xuQUFGRkZKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKRkpKSkpKSkpKSkpKQUpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKRkpKSkpKSkpKSkpKSjdKSkpKSkpGRkZGSkpKSkpKN0E3QUpKQUZBSkpKSkpGSkpKSi08SkZKLUZGRkpKSlxuQEswMDM2NDo2NDpIVFlZQ0JCWFg6MToxMTAxOjI4Njk6MjIwODAvMVxuVFRBQUFBQ0FDR0dUQVRHQVRHQ0FBR0NBR0NBQ0FBQ0FDQVRDQUFUQUFDQUFBQUFUQUNBQUdBQVRUQUdHR1RDQUdBQUFUQ0NBR1RBQUNDQUNDQVRBQ1RBR1RHVEFDVFRBQ0NBQUFDQ0FHR0NUQ0NDQUFDQ0FBR0FHQUFDQUdUQ0NBR0FDVENDVENDQUNDQ1RDR0NDQVRHR1xuK1xuLUFBRkZKSkpKSkpKSkpKSkpGRkpKSkZKRkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpGRkpKSjxKSkpKSkpGRkZGSkZGSkpKSkpKQUZKSkpKSkpKSkpKSkpKSkpKSkpGQUpKSkpKSkpKSkpKSkpKSkpKSkpGSkpKRkFKSkpKSkpKRkpKSkpKSkpKRkZKSlxuQEswMDM2NDo2NDpIVFlZQ0JCWFg6MToxMTAxOjczMTQ6MjczOTEvMVxuVFRHQVRUR0FUQVRUR0FUVEdBVFRHQUNBQUFUQ0FBVENBR1RDQUFBR1RDVFRUQVRUR1RBVEFBQVRUQVRBQVRUVEdUVEFBVFRHVEdUQUFUQ0FHR0dUQUNBQUFBR0FBQ0NBR0NBVEFDQVRBQUNBVEFBQ0FUQUFDQUNBVENBVEdUQUNBQ0FDQUNUQUdBR0dUQ0FBQ0NHQVRDR1xuIn0= -->
+<pre><code>@K00364:64:HTYYCBBXX:1:1101:1824:48192/1
+GTAGAATAATAGTGAATCAAATCAAATGTTATTTGTCACATGCGCTGAATACAACAGGTGTGGACCTTACAGTGAAATGCTTCCTTACAAGCCCTTAACCAACAATGCAGTTTTAAGAAAAATGAGTGTGAGATAAGTAAAAAATAGAAAA
++
+AAFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJJ7JJJJJJFFFFJJJJJJ7A7AJJAFAJJJJJFJJJJ-&lt;JFJ-FFFJJJ
+@K00364:64:HTYYCBBXX:1:1101:2869:22080/1
+TTAAAACACGGTATGATGCAAGCAGCACAACACATCAATAACAAAAATACAAGAATTAGGGTCAGAAATCCAGTAACCACCATACTAGTGTACTTACCAAACCAGGCTCCCAACCAAGAGAACAGTCCAGACTCCTCCACCCTCGCCATGG
++
+-AAFFJJJJJJJJJJJJFFJJJFJFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFFJJJ&lt;JJJJJJFFFFJFFJJJJJJAFJJJJJJJJJJJJJJJJJJFAJJJJJJJJJJJJJJJJJJJFJJJFAJJJJJJJFJJJJJJJJFFJJ
+@K00364:64:HTYYCBBXX:1:1101:7314:27391/1
+TTGATTGATATTGATTGATTGACAAATCAATCAGTCAAAGTCTTTATTGTATAAATTATAATTTGTTAATTGTGTAATCAGGGTACAAAAGAACCAGCATACATAACATAACATAACACATCATGTACACACACTAGAGGTCAACCGATCG</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2004,17 +2260,40 @@ pwd</code></pre>
 <h1><span class="header-section-number">33</span> Do the same to see the first 8 lines of <code>fastq/DPCh_plate1_C11_S35.R2.fq.gz</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZ3pjYXQgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMi5mcS5neiB8IGhlYWRcbmBgYCJ9 -->
+<pre class="bash"><code>gzcat fastq/DPCh_plate1_C11_S35.R2.fq.gz | head</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQEswMDM2NDo2NDpIVFlZQ0JCWFg6MToxMTAxOjE4MjQ6NDgxOTIvMlxuQ0FDQUFHR0FBQ0dBQ0FHQUdHR1RBR1RHQ0dUQUNHR0NDQ0FHQ0FDQVRDQUNUR0dHQUNDQUFHQ0FUQ0NUR0NBQVRDQ0FHR0FDQ1RDQ0FUQUNDQUdHQ0dHVEdUQ0FHQUdHQUFHR0NDQ1RBQUFBVFRHVENBQUFHQUNUQ0NBR0NDQUNDQ1RBR1RDQVRUQUFDVENUVENHQ1RDVFxuK1xuQTwtQS08LUY8QUotPC0tLTw8LS08LTwtN0ZGSi03N0E8LTwtLTctPDctPC03PEo8NzdBPC0tNy1BQUE3LUFGLTdGQUY8LTxGSi0tLTctNzdGSkE3LTc3RjdGRko3RjwtLTwtLTc3KUE3RkEtQTctPC0tLTc8PEY3LTwtNzwpKTctLSk8KTc8QUYtLS0tNzw8PDwtKS03KVxuQEswMDM2NDo2NDpIVFlZQ0JCWFg6MToxMTAxOjI4Njk6MjIwODAvMlxuQ1RBVEdBVENBQUNBR0NHVFRUVEdUR0FUVFRBQ0NDQ0NHVEdBVEdDQUNUQ0FDVEdHVEFUR1RDVEdBQUNBR0NUVEdBR0dDQ0FDQVRDVEFHR0dUVEdDQ0FHQUNBR0FBVEFHQUNUVEdDVFRUR0dBVEFUR0NUVENUVEdDQ0FHVENBR0dHR0dHVEdUQ1RHVEFBR0FUR1RUQ0dHVFxuK1xuQUFBRkFGSkpKSkpKSkpKSi1GSkpKSkpKRkpKSkpGSkpKSkpKSkpKSkpKSkZKRkZKRkZGRkZGSkZGSkpKRkpGQUFBNzc3QUFKSkpBQS0tQTwtQTwtSkpBLTxKRkpKSi03PC1BQUpKRkpKSjxKSjxKQUZGRkYtLS03PDw3Nzc3PCk3PDwtPDc3Ny08LTctLTxGSko8Ri08PFxuQEswMDM2NDo2NDpIVFlZQ0JCWFg6MToxMTAxOjczMTQ6MjczOTEvMlxuR0dHQUdBQ1RDQ0dHQ0FHQ0dDVEdHQUdBR0dBR0dBQUdHQ1RDVEdBVEFHQ0dDVEFHQUNBR0dDR0dHQUdDQ0dDQ0FHQ0FHQ0dDVEdHQ0dDR0dBR0dBQUdHQ0NDVEdHQ0FHQ0dDR0FBQUNBR0dDR0dDR0dBQ1RDQ0dHQ0FHQ0dDVEdHQUdBR0dDR0dBQUdHQ1RDVEdHQ0FHQ1xuIn0= -->
+<pre><code>@K00364:64:HTYYCBBXX:1:1101:1824:48192/2
+CACAAGGAACGACAGAGGGTAGTGCGTACGGCCCAGCACATCACTGGGACCAAGCATCCTGCAATCCAGGACCTCCATACCAGGCGGTGTCAGAGGAAGGCCCTAAAATTGTCAAAGACTCCAGCCACCCTAGTCATTAACTCTTCGCTCT
++
+A&lt;-A-&lt;-F&lt;AJ-&lt;---&lt;&lt;--&lt;-&lt;-7FFJ-77A&lt;-&lt;--7-&lt;7-&lt;-7&lt;J&lt;77A&lt;--7-AAA7-AF-7FAF&lt;-&lt;FJ---7-77FJA7-77F7FFJ7F&lt;--&lt;--77)A7FA-A7-&lt;---7&lt;&lt;F7-&lt;-7&lt;))7--)&lt;)7&lt;AF----7&lt;&lt;&lt;&lt;-)-7)
+@K00364:64:HTYYCBBXX:1:1101:2869:22080/2
+CTATGATCAACAGCGTTTTGTGATTTACCCCCGTGATGCACTCACTGGTATGTCTGAACAGCTTGAGGCCACATCTAGGGTTGCCAGACAGAATAGACTTGCTTTGGATATGCTTCTTGCCAGTCAGGGGGGTGTCTGTAAGATGTTCGGT
++
+AAAFAFJJJJJJJJJJ-FJJJJJJFJJJJFJJJJJJJJJJJJJFJFFJFFFFFFJFFJJJFJFAAA777AAJJJAA--A&lt;-A&lt;-JJA-&lt;JFJJJ-7&lt;-AAJJFJJJ&lt;JJ&lt;JAFFFF---7&lt;&lt;7777&lt;)7&lt;&lt;-&lt;777-&lt;-7--&lt;FJJ&lt;F-&lt;&lt;
+@K00364:64:HTYYCBBXX:1:1101:7314:27391/2
+GGGAGACTCCGGCAGCGCTGGAGAGGAGGAAGGCTCTGATAGCGCTAGACAGGCGGGAGCCGCCAGCAGCGCTGGCGCGGAGGAAGGCCCTGGCAGCGCGAAACAGGCGGCGGACTCCGGCAGCGCTGGAGAGGCGGAAGGCTCTGGCAGC</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
 <div id="what-do-you-notice-about-the-names-of-the-two-reads-in-each-file-lines-1-and-5-that-start-with-a" class="section level1">
 <h1><span class="header-section-number">34</span> What do you notice about the names of the two reads in each file (Lines 1 and 5, that start with a <code>@</code>)</h1>
-<pre><code></code></pre>
+<pre><code>I notice that they start with a NMFS ID; oh they are the same between the two files except for the ending which is a 1 or a 2. </code></pre>
 </div>
 <div id="print-the-date-redirect-it-to-a-file-called-now.txt-catenate-that-file-to-stdout-and-then-remove-it" class="section level1">
 <h1><span class="header-section-number">35</span> Print the date, redirect it to a file called <code>now.txt</code>, catenate that file to <em>stdout</em> and then remove it</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZGF0ZSA+IG5vdy50eHRcbmNhdCBub3cudHh0XG5ybSBub3cudHh0XG5gYGAifQ== -->
+<pre class="bash"><code>date &gt; now.txt
+cat now.txt
+rm now.txt</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiVGh1IEphbiAzMCAxNToyODo0MyBQU1QgMjAyMFxuIn0= -->
+<pre><code>Thu Jan 30 15:28:43 PST 2020</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2022,6 +2301,14 @@ pwd</code></pre>
 <h1><span class="header-section-number">36</span> Count the number of lines/words/characters (using <code>wc</code>) in the two SAM files in the <code>sam</code> directory</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxud2Mgc2FtLypcbmBgYCJ9 -->
+<pre class="bash"><code>wc sam/*</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgMTQyMTkgICA0NTA5MiAgNTExMjAzIHNhbS9EUENoX3BsYXRlMV9BMDVfUzUuc2FtXG4gICAxNDE1MCAgIDQzOTg1ICA0Nzk5Nzcgc2FtL0RQQ2hfcGxhdGUxX0EwNl9TNi5zYW1cbiAgIDI4MzY5ICAgODkwNzcgIDk5MTE4MCB0b3RhbFxuIn0= -->
+<pre><code>   14219   45092  511203 sam/DPCh_plate1_A05_S5.sam
+   14150   43985  479977 sam/DPCh_plate1_A06_S6.sam
+   28369   89077  991180 total</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2029,13 +2316,57 @@ pwd</code></pre>
 <h1><span class="header-section-number">37</span> Note that gzcat will decompress all files you give it and send the output to <em>stdout</em>. Knowing this, count how many lines are in all the <code>R1</code> files in <code>fastq</code> (after decompressing them into text files), and also count up all the lines in the <code>R1</code> files in <code>fastq</code>. Note they should be the same.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxud2MgZmFzdHEvKlIxLmZxLmd6IFxuZ3pjYXQgZmFzdHEvKlIxLmZxLmd6IHwgd2NcbmBgYCJ9 -->
+<pre class="bash"><code>wc fastq/*R1.fq.gz 
+gzcat fastq/*R1.fq.gz | wc</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgNTUgICAgIDQ1MSAgIDE1ODg2IGZhc3RxL0RQQ2hfcGxhdGUxX0EwNV9TNS5SMS5mcS5nelxuICAgICAgMzIgICAgIDI5OCAgIDEwODc4IGZhc3RxL0RQQ2hfcGxhdGUxX0EwNl9TNi5SMS5mcS5nelxuICAgICAgNDIgICAgIDM2NiAgIDEzMTEzIGZhc3RxL0RQQ2hfcGxhdGUxX0ExMV9TMTEuUjEuZnEuZ3pcbiAgICAgIDY4ICAgICA1MTEgICAxNjg3NSBmYXN0cS9EUENoX3BsYXRlMV9BMTJfUzEyLlIxLmZxLmd6XG4gICAgICA2MCAgICAgNTAwICAgMTU5NDYgZmFzdHEvRFBDaF9wbGF0ZTFfQjA1X1MxNy5SMS5mcS5nelxuICAgICAgNDkgICAgIDQwNyAgIDEzNzE4IGZhc3RxL0RQQ2hfcGxhdGUxX0IwNl9TMTguUjEuZnEuZ3pcbiAgICAgIDQxICAgICA0MDUgICAxMzc4MiBmYXN0cS9EUENoX3BsYXRlMV9CMTFfUzIzLlIxLmZxLmd6XG4gICAgICAzMyAgICAgMzMxICAgMTE0NjAgZmFzdHEvRFBDaF9wbGF0ZTFfQjEyX1MyNC5SMS5mcS5nelxuICAgICAgNTkgICAgIDQ4NCAgIDE1MDk1IGZhc3RxL0RQQ2hfcGxhdGUxX0MwNV9TMjkuUjEuZnEuZ3pcbiAgICAgIDQ3ICAgICAzMjIgICAgOTU5NSBmYXN0cS9EUENoX3BsYXRlMV9DMDZfUzMwLlIxLmZxLmd6XG4gICAgICAzOSAgICAgNDM0ICAgMTQ1MDEgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMS5mcS5nelxuICAgICAgODMgICAgIDU0OSAgIDE3ODU0IGZhc3RxL0RQQ2hfcGxhdGUxX0MxMl9TMzYuUjEuZnEuZ3pcbiAgICAgIDI4ICAgICAyODYgICAgOTU2MiBmYXN0cS9EUENoX3BsYXRlMV9EMDVfUzQxLlIxLmZxLmd6XG4gICAgICA1NiAgICAgMzg2ICAgMTEyMDUgZmFzdHEvRFBDaF9wbGF0ZTFfRDA2X1M0Mi5SMS5mcS5nelxuICAgICAgMzIgICAgIDMwMyAgIDExMzIxIGZhc3RxL0RQQ2hfcGxhdGUxX0QxMV9TNDcuUjEuZnEuZ3pcbiAgICAgIDYyICAgICA0MTUgICAxNDM1NyBmYXN0cS9EUENoX3BsYXRlMV9EMTJfUzQ4LlIxLmZxLmd6XG4gICAgICA2NiAgICAgNDY5ICAgMTQzODggZmFzdHEvRFBDaF9wbGF0ZTFfRTA1X1M1My5SMS5mcS5nelxuICAgICAgNDkgICAgIDM5OSAgIDEzMjc2IGZhc3RxL0RQQ2hfcGxhdGUxX0UwNl9TNTQuUjEuZnEuZ3pcbiAgICAgIDMzICAgICAyNjEgICAgOTAwMCBmYXN0cS9EUENoX3BsYXRlMV9FMTFfUzU5LlIxLmZxLmd6XG4gICAgICA1NyAgICAgMzg5ICAgMTEyNDggZmFzdHEvRFBDaF9wbGF0ZTFfRTEyX1M2MC5SMS5mcS5nelxuICAgICAgNTEgICAgIDQ3OCAgIDE1OTIwIGZhc3RxL0RQQ2hfcGxhdGUxX0YwNV9TNjUuUjEuZnEuZ3pcbiAgICAgIDQ1ICAgICA0MDAgICAxMzU3NyBmYXN0cS9EUENoX3BsYXRlMV9GMDZfUzY2LlIxLmZxLmd6XG4gICAgICA1OCAgICAgNDE3ICAgMTM2MjcgZmFzdHEvRFBDaF9wbGF0ZTFfRjExX1M3MS5SMS5mcS5nelxuICAgICAgNjIgICAgIDQ2OCAgIDE0NTIyIGZhc3RxL0RQQ2hfcGxhdGUxX0YxMl9TNzIuUjEuZnEuZ3pcbiAgICAgIDYwICAgICA0MTggICAxMzA2MCBmYXN0cS9EUENoX3BsYXRlMV9HMDVfUzc3LlIxLmZxLmd6XG4gICAgICA1NiAgICAgNTI3ICAgMTc2NDcgZmFzdHEvRFBDaF9wbGF0ZTFfRzA2X1M3OC5SMS5mcS5nelxuICAgICAgNDEgICAgIDM2NCAgIDExMTA3IGZhc3RxL0RQQ2hfcGxhdGUxX0cxMV9TODMuUjEuZnEuZ3pcbiAgICAgIDUzICAgICAzOTkgICAxMzk2OSBmYXN0cS9EUENoX3BsYXRlMV9HMTJfUzg0LlIxLmZxLmd6XG4gICAgICA0NCAgICAgMzk1ICAgMTIzMjQgZmFzdHEvRFBDaF9wbGF0ZTFfSDA1X1M4OS5SMS5mcS5nelxuICAgICAgMzEgICAgIDM1MiAgIDEyMjY4IGZhc3RxL0RQQ2hfcGxhdGUxX0gwNl9TOTAuUjEuZnEuZ3pcbiAgICAgIDM1ICAgICAyNjUgICAgODg2MSBmYXN0cS9EUENoX3BsYXRlMV9IMTFfUzk1LlIxLmZxLmd6XG4gICAgICA2NCAgICAgNTM0ICAgMTcxNTEgZmFzdHEvRFBDaF9wbGF0ZTFfSDEyX1M5Ni5SMS5mcS5nelxuICAgIDE1OTEgICAxMjk4MyAgNDI3MDkzIHRvdGFsXG4gICAxOTM2NCAgIDE5MzY0IDE2NzgzOTRcbiJ9 -->
+<pre><code>      55     451   15886 fastq/DPCh_plate1_A05_S5.R1.fq.gz
+      32     298   10878 fastq/DPCh_plate1_A06_S6.R1.fq.gz
+      42     366   13113 fastq/DPCh_plate1_A11_S11.R1.fq.gz
+      68     511   16875 fastq/DPCh_plate1_A12_S12.R1.fq.gz
+      60     500   15946 fastq/DPCh_plate1_B05_S17.R1.fq.gz
+      49     407   13718 fastq/DPCh_plate1_B06_S18.R1.fq.gz
+      41     405   13782 fastq/DPCh_plate1_B11_S23.R1.fq.gz
+      33     331   11460 fastq/DPCh_plate1_B12_S24.R1.fq.gz
+      59     484   15095 fastq/DPCh_plate1_C05_S29.R1.fq.gz
+      47     322    9595 fastq/DPCh_plate1_C06_S30.R1.fq.gz
+      39     434   14501 fastq/DPCh_plate1_C11_S35.R1.fq.gz
+      83     549   17854 fastq/DPCh_plate1_C12_S36.R1.fq.gz
+      28     286    9562 fastq/DPCh_plate1_D05_S41.R1.fq.gz
+      56     386   11205 fastq/DPCh_plate1_D06_S42.R1.fq.gz
+      32     303   11321 fastq/DPCh_plate1_D11_S47.R1.fq.gz
+      62     415   14357 fastq/DPCh_plate1_D12_S48.R1.fq.gz
+      66     469   14388 fastq/DPCh_plate1_E05_S53.R1.fq.gz
+      49     399   13276 fastq/DPCh_plate1_E06_S54.R1.fq.gz
+      33     261    9000 fastq/DPCh_plate1_E11_S59.R1.fq.gz
+      57     389   11248 fastq/DPCh_plate1_E12_S60.R1.fq.gz
+      51     478   15920 fastq/DPCh_plate1_F05_S65.R1.fq.gz
+      45     400   13577 fastq/DPCh_plate1_F06_S66.R1.fq.gz
+      58     417   13627 fastq/DPCh_plate1_F11_S71.R1.fq.gz
+      62     468   14522 fastq/DPCh_plate1_F12_S72.R1.fq.gz
+      60     418   13060 fastq/DPCh_plate1_G05_S77.R1.fq.gz
+      56     527   17647 fastq/DPCh_plate1_G06_S78.R1.fq.gz
+      41     364   11107 fastq/DPCh_plate1_G11_S83.R1.fq.gz
+      53     399   13969 fastq/DPCh_plate1_G12_S84.R1.fq.gz
+      44     395   12324 fastq/DPCh_plate1_H05_S89.R1.fq.gz
+      31     352   12268 fastq/DPCh_plate1_H06_S90.R1.fq.gz
+      35     265    8861 fastq/DPCh_plate1_H11_S95.R1.fq.gz
+      64     534   17151 fastq/DPCh_plate1_H12_S96.R1.fq.gz
+    1591   12983  427093 total
+   19364   19364 1678394</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>I don’t get it. The numbers are not the same.</p>
 </div>
 <div id="now-gzcat-all-the-r1-files-in-fastq-and-redirect-that-to-a-file-called-r1_all_via_gzcat.fq-in-the-top-directory-of-the-repo" class="section level1">
 <h1><span class="header-section-number">38</span> Now, gzcat all the <code>R1</code> files in <code>fastq</code> and redirect that to a file called <code>R1_all_via_gzcat.fq</code> in the top directory of the repo</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZ3pjYXQgZmFzdHEvKlIxKiA+IFIxX2FsbF92aWFfZ3pjYXQuZnFcbmBgYCJ9 -->
+<pre class="bash"><code>gzcat fastq/*R1* &gt; R1_all_via_gzcat.fq</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2043,6 +2374,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">39</span> People are usually familiar with using <code>cat</code> to catenate text files. It turns out that you can also catenate <code>gzip</code> compressed files. The result is another properly gzipped file that can be decompressed. Catenate all the gzipped <code>R1</code> files in <code>fastq</code> into a single (still gzipped) file called <code>R1_all_via_cat.fq.gz</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY2F0IGZhc3RxLypSMSogPiBSMV9hbGxfdmlhX2NhdC5mcS5nelxuYGBgIn0= -->
+<pre class="bash"><code>cat fastq/*R1* &gt; R1_all_via_cat.fq.gz</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2050,6 +2384,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">40</span> Copy <code>R1_all_via_cat.fq.gz</code> to <code>copy_of_R1_all_via_cat.fq.gz</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY3AgUjFfYWxsX3ZpYV9jYXQuZnEuZ3ogY29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5nelxuYGBgIn0= -->
+<pre class="bash"><code>cp R1_all_via_cat.fq.gz copy_of_R1_all_via_cat.fq.gz</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2057,6 +2394,12 @@ pwd</code></pre>
 <h1><span class="header-section-number">41</span> Now, decompress <code>R1_all_via_cat.fq.gz</code> into <code>R1_all_via_cat.fq</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZ3VuemlwIFIxX2FsbF92aWFfY2F0LmZxLmd6XG5gYGAifQ== -->
+<pre class="bash"><code>gunzip R1_all_via_cat.fq.gz</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiZ3VuemlwOiBSMV9hbGxfdmlhX2NhdC5mcSBhbHJlYWR5IGV4aXN0cyAtLSBza2lwcGluZ1xuIn0= -->
+<pre><code>gunzip: R1_all_via_cat.fq already exists -- skipping</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2064,6 +2407,14 @@ pwd</code></pre>
 <h1><span class="header-section-number">42</span> Compute the SHA1 hashes of <code>R1_all_via_cat.fq</code> and <code>R1_all_via_gzcat.fq</code> to confirm they are identical</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuc2hhc3VtIFIxX2FsbF92aWFfY2F0LmZxXG5zaGFzdW0gUjFfYWxsX3ZpYV9nemNhdC5mcVxuYGBgIn0= -->
+<pre class="bash"><code>shasum R1_all_via_cat.fq
+shasum R1_all_via_gzcat.fq</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiZDViOTViZjk1MGU4MTUwYzU2YWVkOTBlZWE5ZmViZWIyM2RkZDg1NiAgUjFfYWxsX3ZpYV9jYXQuZnFcbmQ1Yjk1YmY5NTBlODE1MGM1NmFlZDkwZWVhOWZlYmViMjNkZGQ4NTYgIFIxX2FsbF92aWFfZ3pjYXQuZnFcbiJ9 -->
+<pre><code>d5b95bf950e8150c56aed90eea9febeb23ddd856  R1_all_via_cat.fq
+d5b95bf950e8150c56aed90eea9febeb23ddd856  R1_all_via_gzcat.fq</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2071,6 +2422,18 @@ pwd</code></pre>
 <h1><span class="header-section-number">43</span> But now, gzip <code>R1_all_via_gzcat.fq</code> and compare the result to <code>copy_of_R1_all_via_cat.fq.gz</code> by computing the SHA1 hash of each</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZ3ppcCBSMV9hbGxfdmlhX2d6Y2F0LmZxXG5zaGFzdW0gUjFfYWxsX3ZpYV9nemNhdC5mcS5nelxuc2hhc3VtIGNvcHlfb2ZfUjFfYWxsX3ZpYV9jYXQuZnEuZ3pcbmBgYCJ9 -->
+<pre class="bash"><code>gzip R1_all_via_gzcat.fq
+shasum R1_all_via_gzcat.fq.gz
+shasum copy_of_R1_all_via_cat.fq.gz</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiZDVmYjlmOGNkNzE2MTdhYWUwYzY1NGEwYTc5YzIyNGQ0YmI5ZTkyMCAgUjFfYWxsX3ZpYV9nemNhdC5mcS5nelxuOTM1ODhjMDA4NTdlNDIzMjViZjY0YmIwZWE1OTkyMzA3NDYwNzM3YyAgY29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5nelxuIn0= -->
+<pre><code>d5fb9f8cd71617aae0c654a0a79c224d4bb9e920  R1_all_via_gzcat.fq.gz
+93588c00857e42325bf64bb0ea5992307460737c  copy_of_R1_all_via_cat.fq.gz</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiZ3ppcDogUjFfYWxsX3ZpYV9nemNhdC5mcS5neiBhbHJlYWR5IGV4aXN0cyAtLSBza2lwcGluZ1xuIn0= -->
+<pre><code>gzip: R1_all_via_gzcat.fq.gz already exists -- skipping</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Note that this shows that, although the compressed files are not identical, their contents (once decompressed, are identical).</p>
@@ -2079,17 +2442,27 @@ pwd</code></pre>
 <h1><span class="header-section-number">44</span> using <code>du</code> with the <code>-h</code> (i.e. “human readable” option) print the file sizes of <code>R1_all_via_cat.fq</code> and <code>copy_of_R1_all_via_cat.fq.gz</code>.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZHUgLWggUjFfYWxsX3ZpYV9nemNhdC5mcSBjb3B5X29mX1IxX2FsbF92aWFfY2F0LmZxLmd6XG5gYGAifQ== -->
+<pre class="bash"><code>du -h R1_all_via_gzcat.fq copy_of_R1_all_via_cat.fq.gz</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiMS42TVx0UjFfYWxsX3ZpYV9nemNhdC5mcVxuNDIwS1x0Y29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5nelxuIn0= -->
+<pre><code>1.6M    R1_all_via_gzcat.fq
+420K    copy_of_R1_all_via_cat.fq.gz</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
 <div id="by-what-factor-approximately-does-the-compression-save-storage-space-on-your-disk" class="section level1">
 <h1><span class="header-section-number">45</span> By what factor (approximately) does the compression save storage space on your disk?</h1>
-<pre><code></code></pre>
+<pre><code>By an order of magnitude</code></pre>
 </div>
 <div id="remove-all-files-starting-with-r1_all-and-copy_of_r1" class="section level1">
 <h1><span class="header-section-number">46</span> Remove all files starting with <code>R1_all</code> and <code>copy_of_R1</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucm0gKlIxX2FsbCpcbmBgYCJ9 -->
+<pre class="bash"><code>rm *R1_all*</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2097,6 +2470,15 @@ pwd</code></pre>
 <h1><span class="header-section-number">47</span> Now, print the file sizes (with <code>du -h</code>, again) of the files in <code>bam</code> to the files in <code>sam</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZHUgLWggYmFtLyogIHNhbS8qXG5gYGAifQ== -->
+<pre class="bash"><code>du -h bam/*  sam/*</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiMTI4S1x0YmFtL0RQQ2hfcGxhdGUxX0EwNV9TNS5iYW1cbjEyMEtcdGJhbS9EUENoX3BsYXRlMV9BMDZfUzYuYmFtXG41MDBLXHRzYW0vRFBDaF9wbGF0ZTFfQTA1X1M1LnNhbVxuNDcyS1x0c2FtL0RQQ2hfcGxhdGUxX0EwNl9TNi5zYW1cbiJ9 -->
+<pre><code>128K    bam/DPCh_plate1_A05_S5.bam
+120K    bam/DPCh_plate1_A06_S6.bam
+500K    sam/DPCh_plate1_A05_S5.sam
+472K    sam/DPCh_plate1_A06_S6.sam</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2104,6 +2486,26 @@ pwd</code></pre>
 <h1><span class="header-section-number">48</span> Print the last 15 lines of <code>sam/DPCh_plate1_A05_S5.sam</code> to <em>stdout</em></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxudGFpbCAtMTUgc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW1cbmBgYCJ9 -->
+<pre class="bash"><code>tail -15 sam/DPCh_plate1_A05_S5.sam</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiSzAwMzY0OjY0OkhUWVlDQkJYWDo1OjIyMTk6MzI0OTE6NDU5MDZcdDE2M1x0TkNfMDM3MTI0LjFcdDQwMTkzMTBcdDYwXHQxNTFNXHQ9XHQ0MDE5MzUxXHQxOTJcdFRBQUFBVEFDQUNBVFRDQUdBVENUQ0dDQ0FUQ0FBQ0NHVFRHVFRBQUFUR1RUR0FUVEFBVENBQUFHR0dUR0FBQ0FUVFRUQ0NDR0FHVEdDQUFBVFRUQUFBR0NHQ0NHVFRBQVRUVEFBR0dDVFRUVEdDQUdBVEdDR1RDVFRHR0NUR0FDVEdUR1RHVEdUR1RUVEFDQ0FBR0FDVENcdEFBRkZGRkpKSkpKRkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZKSkpKSkpKSkZKSkpGRkpKSkpKSkpKSkpKSkpKSkZKQUpKSkpKSkpKRkY3RkpKSkZKSkpKSkpKSkZGQTxKSkZBSkpGRkZKSkFBRkZBRkpBRkZKSkpKRko3QUZBSkFKRkpKSkZKSkZGSkZGRkpKRkpGRkpKSkpcdE5NOmk6MFx0TUQ6WjoxNTFcdEFTOmk6MTUxXHRYUzppOjBcdFJHOlo6RFBDaF9wbGF0ZTFfQTA1X1M1XG5LMDAzNjQ6NjQ6SFRZWUNCQlhYOjU6MjIxOTozMjQ5MTo0NTkwNlx0ODNcdE5DXzAzNzEyNC4xXHQ0MDE5MzUxXHQ2MFx0MTUxTVx0PVx0NDAxOTMxMFx0LTE5Mlx0TlRUR0FUVEFBVENBQUFHR0dUR0FBQ0FUVFRUQ0NDR0FHVEdDQUFBVFRUQUFBR0NHQ0NHVFRBQVRUVEFBR0dDVFRUVEdDQUdBVEdDR1RDVFRHR0NUR0FDVEdUR1RHVEdUR1RUVFRDQ0FBR0FDVENBQUFDQUdUQ0FDQ0NUR0NHQ1RBQ0NUVEdUQUNHVEdBQUdDQUFBQUFUQVx0I0FKSkpKPDdKPEpKSkZKSkpKSkZKSkpKSkFGSkpKSkpKSkpKSkpKSkpKSkpBPEpKSkpKSkpKSkFGSkpKSkpKSkpKSkpKSkpKSkZBRi1GSkpKSkpKSkZKSko3SkpKSkpKSkpKSjxKSkpKSkpKSkpKSkpKRkpKSkpGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpGRkZBQVx0Tk06aToyXHRNRDpaOjBHOTlBNTBcdEFTOmk6MTQ1XHRYUzppOjIwXHRSRzpaOkRQQ2hfcGxhdGUxX0EwNV9TNVxuSzAwMzY0OjY0OkhUWVlDQkJYWDo1OjIyMTc6Mjc1NzozMjQwMlx0MTYzXHROQ18wMzcxMjQuMVx0NDAxOTU0M1x0NjBcdDE1MU1cdD1cdDQwMTk3ODNcdDM5MVx0VEFBQUdBQVRBQ1RDQ1RBR1RBVEFDQVRBVFRUR0NHQUdBVENHVFRBVEFBQUNHQ1RUQUFUR0dDQVRBR0FUQUNHQ0FUQ0NUQUNDVEdHQUFHQVRHVFRDR0dDR0NHR0NHR1RUR0NBR1RUQ0NDQ1RHQ0dDQ0NBR0NUVENBR1RDR0NUR0FHQUdDQUNBR0NBQ0FHQ0NDVFRDVEdDVFx0QUFGRkZKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZKSkpGSkpKSkpKSkpKSkpKSkpKRkpKSkpKSkpKRkpGSkpGSkpKSkpKSkpKSkpKLVx0Tk06aTowXHRNRDpaOjE1MVx0QVM6aToxNTFcdFhTOmk6NzVcdFJHOlo6RFBDaF9wbGF0ZTFfQTA1X1M1XG5LMDAzNjQ6NjQ6SFRZWUNCQlhYOjM6MjIyMjoyMjc5MDozNTYzN1x0ODNcdE5DXzAzNzEyNC4xXHQ0MDE5NTcyXHQ2MFx0MTUxTVx0PVx0NDAxOTMwOVx0LTQxNFx0R0FHQVRDR1RUQVRBQUFDR0NUVEFBVEdHQ0FUQUdBVEFDR0NBVENDVEFDQ1RHR0FBR0FUR1RUQ0dHQ0dDR0dBR0dUVEdDQUdUVENDQ0NUR0NHQ0NDQUdDVFRDQUdUQ0dDVEdBR0FHQ0FDQUdDQUNBR0NDQ1RUQ1RHQ1RHQUdDQVRHQ0NUQVRBQUNHQVRBR0dHR0FHR0FDR1x0SkpKSkFKSkpKQUZKQUpKSkpGQTdKSkpKSkpGSkpKRkpKSkpKRkpKSkZKSkpKSkpKSkpKSkpGSkpKSkpKSkpKSkpGSkpKSkpKQUpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpGRkZBQVx0Tk06aToxXHRNRDpaOjYyQzg4XHRBUzppOjE0Nlx0WFM6aTo3Nlx0Ukc6WjpEUENoX3BsYXRlMV9BMDVfUzVcbkswMDM2NDo2NDpIVFlZQ0JCWFg6MjoxMTI3OjI4ODc5OjE2NTA2XHQxNjNcdE5DXzAzNzEyNC4xXHQ0MDE5NzQxXHQ2MFx0MTUxTVx0PVx0NDAyMDYyOVx0MTAzOVx0VEdUVENUVENUQ0FBR0NHQ1RDQUFDQ0FHQ0NHQ1RBQ0FDVEdUR0NHVFRDR1RUR1RUQ0dUVEFBQUFBR0dHQVRUVENBQUFBVEdHVFRUQ1RUQ0NBQUFDVEdUR1RBQVRBQ0NUVEdUVFRUVFRUQ1RUR0NDQ0dBR0dDQ0dUQUFUQUFBVEdDVFRDQ0NDVEFUQ0FUVEdUR1RHVFRDQVx0PC0tQUFBSkpKRkpKPEFKQTxGSkpGRkpGRi1BLS1GRjdBRkYtPC1BPDdBRi0tLS0tNzc3LTw3RjxGRjc8NzwtPDdBPC03Ri08LS03QUFBQTxBLUE3NzdBLS0tNy1GLTctLTctLTctQTxGSkFGNzwtLS0pKS03QUYpQS1GRi0tLS0tLS03KSkpKTctLS0tNzctLS0tLS0tLVx0Tk06aTo4XHRNRDpaOjE3QTc1QTE3QTVBMUE4VDVBMTRUMVx0QVM6aToxMTRcdFhTOmk6NDdcdFJHOlo6RFBDaF9wbGF0ZTFfQTA1X1M1XG5LMDAzNjQ6NjQ6SFRZWUNCQlhYOjU6MjIxNzoyNzU3OjMyNDAyXHQ4M1x0TkNfMDM3MTI0LjFcdDQwMTk3ODNcdDYwXHQxNTFNXHQ9XHQ0MDE5NTQzXHQtMzkxXHRHVFRHVFRDR1RUQUFBQUFHR0dBVFRUQ0FBQUFUR0dUVFRDVFRDQ0FBQUNUR1RHVEFBVEFBQ1RUR1RUVFRUVFRHVFRHQ0NBR0FHR0NBR0FBQVRBQUFUR1RUVENDQ0FUQVRDQVRUR1RHVEdUVFRBVEFUVEdBQUFDR0FHVEFUQ0NHVEFDQVRBQ0FHQUdDQ0FUVFRBVFRDQ0FUXHRGSkpKSkpKSkpKSkpKSkpKSkpKSkpKRkpGQUZGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZGRkFBXHROTTppOjFcdE1EOlo6NjNDODdcdEFTOmk6MTQ2XHRYUzppOjQ1XHRSRzpaOkRQQ2hfcGxhdGUxX0EwNV9TNVxuSzAwMzY0OjY0OkhUWVlDQkJYWDo0OjExMjc6ODAxNDo2Njk1XHQxNjNcdE5DXzAzNzEyNC4xXHQ0MDIwMjY2XHQ2MFx0MTUxTVx0PVx0NDAyMDMyNlx0MjExXHRDQ1RUVFRHQ1RDVENUR0FUR1RUQVRUVENDQUFUQ0dDQUNBQ0NBQUFBQUFHVEdHR0dHQUFBVEFBQUdDVFRUVENUVEdUQ1RHQVRHQUNUR0dBVFRHQ0FBR1RDQ1RDQ0FUQ0NDQ1RDQ0NUQ1RHQ1RBVFRUQUNUR1RBR0dDQ1RBQ0dUVEdUQ1RUQUdDVFRHQ0FUQ0FDQUFBVEFDXHRBQUZGRkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKRkY8PEpKSjdBSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZKSkZKSkpKSkpKSkpKSkpKSkpKSkpKSkpKXHROTTppOjBcdE1EOlo6MTUxXHRBUzppOjE1MVx0WFM6aTowXHRSRzpaOkRQQ2hfcGxhdGUxX0EwNV9TNVxuSzAwMzY0OjY0OkhUWVlDQkJYWDo0OjExMjc6ODAxNDo2Njk1XHQ4M1x0TkNfMDM3MTI0LjFcdDQwMjAzMjZcdDYwXHQxNTFNXHQ9XHQ0MDIwMjY2XHQtMjExXHRUVENUVEdUQ1RHQVRHQUNUR0dBVFRHQ0FBR1RDQ1RDQ0FUQ0NDQ1RDQ0NUQ1RHQ1RBVFRUQUNUR1RBR0dDQ1RBQ0dUVEdUQ1RUQUdDVFRHQ0FUQ0FDQUFBVEFDQ0FDQ0FUQVRUQ1RDVEFDQUNBR1RHQ0FDVEFDVFRUVEdBQ0NUQUNUQVRUQUFDR0FHQUdDQ0NUR0dBQ0FBXHRKSkpKSkpKSkpKSkpKSkpKSkpGRkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZKSkpKSkpKSkpKSkZGQUFBXHROTTppOjBcdE1EOlo6MTUxXHRBUzppOjE1MVx0WFM6aToxOVx0Ukc6WjpEUENoX3BsYXRlMV9BMDVfUzVcbkswMDM2NDo2NDpIVFlZQ0JCWFg6MjoxMTI3OjI4ODc5OjE2NTA2XHQ4M1x0TkNfMDM3MTI0LjFcdDQwMjA2MjlcdDYwXHQxNTFNXHQ9XHQ0MDE5NzQxXHQtMTAzOVx0VENBQUFHVEdDQUdUQVRHVENBQ0FHVFRHR0NBQ0FHR0FBR0dBQUdHVENUR0FBQ0FHQUdUR0NBVFRUQUFUVEFBQ0NBQUdDVEdUQ1RUR0dDQVRUR0dBQ0dHR0FHR0dHR0dBQ0FDVENBQ1RHR0NHQUdUQ0FUQ0FDQ0FUQ0NBQ0NBVEdDQUNDQUNDQUFHR0dDQVRHVFRUQ0FHQ1x0QTxKRjdGRkE3QUpKSkpKSkpKSkpGLUpKRkpKSkZBSkpGRjxKRjxBSkpGRkZGRkpKSkZKSkpKSkpKRkpKSkZKSkpGRkpKSkpKSkpKSkpKSkpKSkpGSkpKSkZKSkpKRkpKSkpKSkpKSkpKSkpKSkpGSkpKSkpKSkpKSkpKSkpKSkZGSkpKSkpKSkZKRkpKSkpKSkpGRkZBQVx0Tk06aTowXHRNRDpaOjE1MVx0QVM6aToxNTFcdFhTOmk6MFx0Ukc6WjpEUENoX3BsYXRlMV9BMDVfUzVcbkswMDM2NDo2NDpIVFlZQ0JCWFg6NDoyMTI3OjQ4Mzg6NDgxMzlcdDgzXHROQ18wMzcxMjQuMVx0NDAyMDgwOVx0NjBcdDUwUzEwMU1cdD1cdDQwMjA4MDlcdC0xMDFcdEFHQVRDVEdBVENHVEdUR0FDVEdHQUdUVENBR0FDR1RHVEdDVENUVENDR0FUQ1RUVEFUQ0FDQ0dBQ0dHQUFDQVRHQ1RHQ1RHVEdDVEdUQ1RHVEdHQUFBQUNUR1RHQ1RDVEdBVEFHVEFDQVRHQ1RUVFRUQUdHQUFUR1RUR1RDQUdUR0dUQUdUQUNBR1RHQ0NBR1RDQUdHQUdcdEFKPEpKQUZBRkpGSkZKSkpBRkpGSkpKRkpKSkZGQUZKQUZGSkpKSkpKRkZGQUpKQUY3SkpKSkpKSkpKSkpGSkpKRkZGSkpKRkZKSkpKRkZGSkpGSkpGSkZKQUZGN0pKRkpKPEpGRkpGSkpKSkpKSkpKRkZKSkpKSkZKRjw8SkpKSkpKSkZKSkFKSkpKQUZBRkFGQUEtQUFcdE5NOmk6Mlx0TUQ6Wjo2RzkxVDJcdEFTOmk6OTNcdFhTOmk6MFx0Ukc6WjpEUENoX3BsYXRlMV9BMDVfUzVcbkswMDM2NDo2NDpIVFlZQ0JCWFg6NDoyMTI3OjQ4Mzg6NDgxMzlcdDE2M1x0TkNfMDM3MTI0LjFcdDQwMjA4MDlcdDYwXHQ0UzEwMU00NlNcdD1cdDQwMjA4MDlcdDEwMVx0Q1RBVENBQ0NHQUNHR0FBQ0FUR0NUR0NUR1RHQ1RHVENUR1RHR0FBQUFDVEdUR0NUQ1RHQVRBR1RBQ0FUR0NUVFRUVEFHR0FBVEdUVEdUQ0FHVEdHVEFHVEFDQUdUR0NDQUdUQ0FHVEFHQUdBVENHR0FBR0FHQ0dUQ0dUR1RBR0dHQUFBR0FHVEdUQ1RUQ0FDQ0FHVEdUQVx0LUFBQUZGSkpKPEpKSkpKSkZKSkpKSkpKSkpKRkpKSkpKSkpGSkpKRkZBSkpGSkpGSkpKRkFBSkpKSkZKSkZKN0pKSkpKRjc8SkZKSkpKSkpKSkZKSkpKSkpKSkpKSkZGSkY3SkZKRkpGRkpGSkpKRkpKQUpKPEpKRkZBQUpKSkpKRkpKSkpBPDw3RkFGSko8LUE8RkpKLVx0Tk06aToxXHRNRDpaOjZHOTRcdEFTOmk6OTZcdFhTOmk6MFx0Ukc6WjpEUENoX3BsYXRlMV9BMDVfUzVcbkswMDM2NDo2NDpIVFlZQ0JCWFg6NToyMjAyOjQ1NTM6MTQ0MTRcdDgzXHROQ18wMzcxMjQuMVx0NDAyMDk2MFx0NjBcdDNTMTQ4TVx0PVx0NDAyMDk2MFx0LTE0OFx0VENUR0FUQVRHVFRBR1RDVENUVENUQ1RUQUNUR1RBR0FHR0dUQ0NBR1RBR1RDVENUR1RUVFRUQUNUR1RBR0FHQUdUR0NBVEFUVEFHVENUVFRDQVRUVFRUQVRBVFRUR0dBQ1RDQVRUVEFDVENDQVRUQVRHQVRHR0FUR1RHVENUR0FBQVRHR0NBQ0NDVEFUVENDQ1RBVEFUQ1x0PEZKQS1GLS1KPEo8N0ZKSkpBQUpBSkZKRkZKRkY3PDw8SkpKRkpKSkFKSkpKSkpKSkpKSkZKSkpKRkZKQTxGSkpKRkZKRkZGPEpKRkpKSkZBSkpGSkpGNzxGQUFKQUFBSkZGSkpGRkZGSkpKSkpKRko8SkpGSkpGRkZKSkZGSkYtLS1BPEpBRkZKSkpGSkpBSkpGQUFBQVx0Tk06aTowXHRNRDpaOjE0OFx0QVM6aToxNDhcdFhTOmk6MjBcdFJHOlo6RFBDaF9wbGF0ZTFfQTA1X1M1XG5LMDAzNjQ6NjQ6SFRZWUNCQlhYOjU6MjIwMjo0NTUzOjE0NDE0XHQxNjNcdE5DXzAzNzEyNC4xXHQ0MDIwOTYwXHQ2MFx0MTQ5TTJTXHQ9XHQ0MDIwOTYwXHQxNDhcdEdBVEFUR1RUQUdUQ1RDVFRDVENUVEFDVEdUQUdBR0dHVENDQUdUQUdUQ1RDVEdUVFRUVEFDVEdUQUdBR0FHVEdDQVRBVFRBR1RDVFRUQ0FUVFRUVEFUQVRUVEdHQUNUQ0FUVFRBQ1RDQ0FUVEFUR0FUR0dBVEdUR1RDVEdBQUFUR0dDQUNDQ1RBVFRDQ0NUQVRBVENBR0FcdEFBRkFGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpGRkpKRkpKRkpKSkpKSkpKSkpKSkpGRkpKSkpKSkpKSkpKSkpGRkpKSkpKSkpKSkpKSkpKSkpKRkFKQUZKSkpKRkZKSkFKRkpKSkFKSkpKSkpKSkpKQUpKSkpKSkpGRkZcdE5NOmk6MFx0TUQ6WjoxNDlcdEFTOmk6MTQ5XHRYUzppOjI2XHRSRzpaOkRQQ2hfcGxhdGUxX0EwNV9TNVxuSzAwMzY0OjY0OkhUWVlDQkJYWDo2OjIyMDg6MTE5MzE6MzQyNjZcdDE0N1x0TkNfMDM3MTI0LjFcdDQwMjExOTVcdDYwXHQyOVMxMjJNXHQ9XHQ0MDIxMTk1XHQtMTIyXHRUQ1RUVENDQ1RBQ0FDR0FDR0NUQ1RUQ0NHQVRDVENBR0NDR1RBVENUQ0NDR0NDQUNBR0dBQVRDQUNDQUdHQ1RDVEdBR1RHQUdUR0NUR0NBVENBVENUQ1RUQ0NBR0NBQ1RUVENBQUFUQUNUVFRHQUNUVFRUVEdDVFRUR0NDQ1RUQ0NUR0dBR1RHQ0NBR0FUR0FBR1RBR0dHXHRGSkpKSkpKSkpKSkpKSkFKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZGRkFBXHROTTppOjFcdE1EOlo6MTJHMTA5XHRBUzppOjExN1x0WFM6aToyMFx0Ukc6WjpEUENoX3BsYXRlMV9BMDVfUzVcbkswMDM2NDo2NDpIVFlZQ0JCWFg6NjoyMjA4OjExOTMxOjM0MjY2XHQ5OVx0TkNfMDM3MTI0LjFcdDQwMjExOTVcdDYwXHQxMjJNMjlTXHQ9XHQ0MDIxMTk1XHQxMjJcdENBR0NDR1RBVENUQ0NDR0NDQUNBR0dBQVRDQUNDQUdHQ1RDVEdBR1RHQUdUR0NUR0NBVENBVENUQ1RUQ0NBR0NBQ1RUVENBQUFUQUNUVFRHQUNUVFRUVEdDVFRUR0NDQ1RUQ0NUR0dBR1RHQ0NBR0FUR0FBR1RBR0dHQUdBVENHR0FBR0FHQ0FDQUNHVENUR0FBQ1RDQ0FcdEFBRkZGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpGSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKRkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkZKSkpKSkpKRkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkFcdE5NOmk6MVx0TUQ6WjoxMkcxMDlcdEFTOmk6MTE3XHRYUzppOjIwXHRSRzpaOkRQQ2hfcGxhdGUxX0EwNV9TNVxuIn0= -->
+<pre><code>K00364:64:HTYYCBBXX:5:2219:32491:45906  163 NC_037124.1 4019310 60  151M    =   4019351 192 TAAAATACACATTCAGATCTCGCCATCAACCGTTGTTAAATGTTGATTAATCAAAGGGTGAACATTTTCCCGAGTGCAAATTTAAAGCGCCGTTAATTTAAGGCTTTTGCAGATGCGTCTTGGCTGACTGTGTGTGTGTTTACCAAGACTC AAFFFFJJJJJFJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJFJJJFFJJJJJJJJJJJJJJJFJAJJJJJJJJFF7FJJJFJJJJJJJJFFA&lt;JJFAJJFFFJJAAFFAFJAFFJJJJFJ7AFAJAJFJJJFJJFFJFFFJJFJFFJJJJ NM:i:0  MD:Z:151    AS:i:151    XS:i:0  RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:5:2219:32491:45906  83  NC_037124.1 4019351 60  151M    =   4019310 -192    NTTGATTAATCAAAGGGTGAACATTTTCCCGAGTGCAAATTTAAAGCGCCGTTAATTTAAGGCTTTTGCAGATGCGTCTTGGCTGACTGTGTGTGTGTTTTCCAAGACTCAAACAGTCACCCTGCGCTACCTTGTACGTGAAGCAAAAATA #AJJJJ&lt;7J&lt;JJJFJJJJJFJJJJJAFJJJJJJJJJJJJJJJJJA&lt;JJJJJJJJJAFJJJJJJJJJJJJJJJJFAF-FJJJJJJJFJJJ7JJJJJJJJJJ&lt;JJJJJJJJJJJJJFJJJJFJJJJJJJJJJJJJJJJJJJJJJJJJJFFFAA NM:i:2  MD:Z:0G99A50    AS:i:145    XS:i:20 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:5:2217:2757:32402   163 NC_037124.1 4019543 60  151M    =   4019783 391 TAAAGAATACTCCTAGTATACATATTTGCGAGATCGTTATAAACGCTTAATGGCATAGATACGCATCCTACCTGGAAGATGTTCGGCGCGGCGGTTGCAGTTCCCCTGCGCCCAGCTTCAGTCGCTGAGAGCACAGCACAGCCCTTCTGCT AAFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJFJJJJJJJJJJJJJJJFJJJJJJJJFJFJJFJJJJJJJJJJJJ- NM:i:0  MD:Z:151    AS:i:151    XS:i:75 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:3:2222:22790:35637  83  NC_037124.1 4019572 60  151M    =   4019309 -414    GAGATCGTTATAAACGCTTAATGGCATAGATACGCATCCTACCTGGAAGATGTTCGGCGCGGAGGTTGCAGTTCCCCTGCGCCCAGCTTCAGTCGCTGAGAGCACAGCACAGCCCTTCTGCTGAGCATGCCTATAACGATAGGGGAGGACG JJJJAJJJJAFJAJJJJFA7JJJJJJFJJJFJJJJJFJJJFJJJJJJJJJJJJFJJJJJJJJJJJFJJJJJJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFFFAA NM:i:1  MD:Z:62C88  AS:i:146    XS:i:76 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:2:1127:28879:16506  163 NC_037124.1 4019741 60  151M    =   4020629 1039    TGTTCTTCTCAAGCGCTCAACCAGCCGCTACACTGTGCGTTCGTTGTTCGTTAAAAAGGGATTTCAAAATGGTTTCTTCCAAACTGTGTAATACCTTGTTTTTTTCTTGCCCGAGGCCGTAATAAATGCTTCCCCTATCATTGTGTGTTCA &lt;--AAAJJJFJJ&lt;AJA&lt;FJJFFJFF-A--FF7AFF-&lt;-A&lt;7AF-----777-&lt;7F&lt;FF7&lt;7&lt;-&lt;7A&lt;-7F-&lt;--7AAAA&lt;A-A777A---7-F-7--7--7-A&lt;FJAF7&lt;---))-7AF)A-FF-------7))))7----77-------- NM:i:8  MD:Z:17A75A17A5A1A8T5A14T1  AS:i:114    XS:i:47 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:5:2217:2757:32402   83  NC_037124.1 4019783 60  151M    =   4019543 -391    GTTGTTCGTTAAAAAGGGATTTCAAAATGGTTTCTTCCAAACTGTGTAATAACTTGTTTTTTTGTTGCCAGAGGCAGAAATAAATGTTTCCCATATCATTGTGTGTTTATATTGAAACGAGTATCCGTACATACAGAGCCATTTATTCCAT FJJJJJJJJJJJJJJJJJJJJJFJFAFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFFFAA NM:i:1  MD:Z:63C87  AS:i:146    XS:i:45 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:4:1127:8014:6695    163 NC_037124.1 4020266 60  151M    =   4020326 211 CCTTTTGCTCTCTGATGTTATTTCCAATCGCACACCAAAAAAGTGGGGGAAATAAAGCTTTTCTTGTCTGATGACTGGATTGCAAGTCCTCCATCCCCTCCCTCTGCTATTTACTGTAGGCCTACGTTGTCTTAGCTTGCATCACAAATAC AAFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFF&lt;&lt;JJJ7AJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJFJJJJJJJJJJJJJJJJJJJJJJ NM:i:0  MD:Z:151    AS:i:151    XS:i:0  RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:4:1127:8014:6695    83  NC_037124.1 4020326 60  151M    =   4020266 -211    TTCTTGTCTGATGACTGGATTGCAAGTCCTCCATCCCCTCCCTCTGCTATTTACTGTAGGCCTACGTTGTCTTAGCTTGCATCACAAATACCACCATATTCTCTACACAGTGCACTACTTTTGACCTACTATTAACGAGAGCCCTGGACAA JJJJJJJJJJJJJJJJJJFFJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJFFAAA NM:i:0  MD:Z:151    AS:i:151    XS:i:19 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:2:1127:28879:16506  83  NC_037124.1 4020629 60  151M    =   4019741 -1039   TCAAAGTGCAGTATGTCACAGTTGGCACAGGAAGGAAGGTCTGAACAGAGTGCATTTAATTAACCAAGCTGTCTTGGCATTGGACGGGAGGGGGGACACTCACTGGCGAGTCATCACCATCCACCATGCACCACCAAGGGCATGTTTCAGC A&lt;JF7FFA7AJJJJJJJJJJF-JJFJJJFAJJFF&lt;JF&lt;AJJFFFFFJJJFJJJJJJJFJJJFJJJFFJJJJJJJJJJJJJJJJFJJJJFJJJJFJJJJJJJJJJJJJJJJFJJJJJJJJJJJJJJJJFFJJJJJJJFJFJJJJJJJFFFAA NM:i:0  MD:Z:151    AS:i:151    XS:i:0  RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:4:2127:4838:48139   83  NC_037124.1 4020809 60  50S101M =   4020809 -101    AGATCTGATCGTGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTTTATCACCGACGGAACATGCTGCTGTGCTGTCTGTGGAAAACTGTGCTCTGATAGTACATGCTTTTTAGGAATGTTGTCAGTGGTAGTACAGTGCCAGTCAGGAG AJ&lt;JJAFAFJFJFJJJAFJFJJJFJJJFFAFJAFFJJJJJJFFFAJJAF7JJJJJJJJJJJFJJJFFFJJJFFJJJJFFFJJFJJFJFJAFF7JJFJJ&lt;JFFJFJJJJJJJJJFFJJJJJFJF&lt;&lt;JJJJJJJFJJAJJJJAFAFAFAA-AA NM:i:2  MD:Z:6G91T2 AS:i:93 XS:i:0  RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:4:2127:4838:48139   163 NC_037124.1 4020809 60  4S101M46S   =   4020809 101 CTATCACCGACGGAACATGCTGCTGTGCTGTCTGTGGAAAACTGTGCTCTGATAGTACATGCTTTTTAGGAATGTTGTCAGTGGTAGTACAGTGCCAGTCAGTAGAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTCTTCACCAGTGTA -AAAFFJJJ&lt;JJJJJJFJJJJJJJJJJFJJJJJJJFJJJFFAJJFJJFJJJFAAJJJJFJJFJ7JJJJJF7&lt;JFJJJJJJJJFJJJJJJJJJJJFFJF7JFJFJFFJFJJJFJJAJJ&lt;JJFFAAJJJJJFJJJJA&lt;&lt;7FAFJJ&lt;-A&lt;FJJ- NM:i:1  MD:Z:6G94   AS:i:96 XS:i:0  RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:5:2202:4553:14414   83  NC_037124.1 4020960 60  3S148M  =   4020960 -148    TCTGATATGTTAGTCTCTTCTCTTACTGTAGAGGGTCCAGTAGTCTCTGTTTTTACTGTAGAGAGTGCATATTAGTCTTTCATTTTTATATTTGGACTCATTTACTCCATTATGATGGATGTGTCTGAAATGGCACCCTATTCCCTATATC &lt;FJA-F--J&lt;J&lt;7FJJJAAJAJFJFFJFF7&lt;&lt;&lt;JJJFJJJAJJJJJJJJJJJFJJJJFFJA&lt;FJJJFFJFFF&lt;JJFJJJFAJJFJJF7&lt;FAAJAAAJFFJJFFFFJJJJJJFJ&lt;JJFJJFFFJJFFJF---A&lt;JAFFJJJFJJAJJFAAAA NM:i:0  MD:Z:148    AS:i:148    XS:i:20 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:5:2202:4553:14414   163 NC_037124.1 4020960 60  149M2S  =   4020960 148 GATATGTTAGTCTCTTCTCTTACTGTAGAGGGTCCAGTAGTCTCTGTTTTTACTGTAGAGAGTGCATATTAGTCTTTCATTTTTATATTTGGACTCATTTACTCCATTATGATGGATGTGTCTGAAATGGCACCCTATTCCCTATATCAGA AAFAFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFFJJFJJFJJJJJJJJJJJJJFFJJJJJJJJJJJJJFFJJJJJJJJJJJJJJJJJFAJAFJJJJFFJJAJFJJJAJJJJJJJJJJAJJJJJJJFFF NM:i:0  MD:Z:149    AS:i:149    XS:i:26 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:6:2208:11931:34266  147 NC_037124.1 4021195 60  29S122M =   4021195 -122    TCTTTCCCTACACGACGCTCTTCCGATCTCAGCCGTATCTCCCGCCACAGGAATCACCAGGCTCTGAGTGAGTGCTGCATCATCTCTTCCAGCACTTTCAAATACTTTGACTTTTTGCTTTGCCCTTCCTGGAGTGCCAGATGAAGTAGGG FJJJJJJJJJJJJJAJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFFFAA NM:i:1  MD:Z:12G109 AS:i:117    XS:i:20 RG:Z:DPCh_plate1_A05_S5
+K00364:64:HTYYCBBXX:6:2208:11931:34266  99  NC_037124.1 4021195 60  122M29S =   4021195 122 CAGCCGTATCTCCCGCCACAGGAATCACCAGGCTCTGAGTGAGTGCTGCATCATCTCTTCCAGCACTTTCAAATACTTTGACTTTTTGCTTTGCCCTTCCTGGAGTGCCAGATGAAGTAGGGAGATCGGAAGAGCACACGTCTGAACTCCA AAFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJFJJJJJJJFJJJJJJJJJJJJJJJJJJJJJJJJA NM:i:1  MD:Z:12G109 AS:i:117    XS:i:20 RG:Z:DPCh_plate1_A05_S5</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>If it all looks like gibberish to you, despair not! You will be super familiar with this file format within a couple of weeks from now.</p>
@@ -2112,6 +2514,26 @@ pwd</code></pre>
 <h1><span class="header-section-number">49</span> Print the <em>first</em> 15 lines of <code>sam/DPCh_plate1_A05_S5.sam</code> to <em>stdout</em></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuaGVhZCAtMTUgc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW1cbmBgYCJ9 -->
+<pre class="bash"><code>head -15 sam/DPCh_plate1_A05_S5.sam</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiQEhEXHRWTjoxLjNcdFNPOmNvb3JkaW5hdGVcbkBTUVx0U046TkNfMDM3MDk3LjFcdExOOjk2MTk4MTQyXG5AU1FcdFNOOk5DXzAzNzA5OC4xXHRMTjo1NzQwNjYzNlxuQFNRXHRTTjpOQ18wMzcwOTkuMVx0TE46ODEwNzk3NzZcbkBTUVx0U046TkNfMDM3MTAwLjFcdExOOjc0Mjk5NjE2XG5AU1FcdFNOOk5DXzAzNzEwMS4xXHRMTjo5MzI3MTU0MFxuQFNRXHRTTjpOQ18wMzcxMDIuMVx0TE46NzcwMDkzNTNcbkBTUVx0U046TkNfMDM3MTAzLjFcdExOOjg2OTUzMTA1XG5AU1FcdFNOOk5DXzAzNzEwNC4xXHRMTjo3MzI5NzM5N1xuQFNRXHRTTjpOQ18wMzcxMDUuMVx0TE46OTA4NzIzNTZcbkBTUVx0U046TkNfMDM3MTA2LjFcdExOOjYwODk4NzQ2XG5AU1FcdFNOOk5DXzAzNzEwNy4xXHRMTjo0ODA1MjYzN1xuQFNRXHRTTjpOQ18wMzcxMDguMVx0TE46NzcxMjc2MTBcbkBTUVx0U046TkNfMDM3MTA5LjFcdExOOjc1Mjg4NTk5XG5AU1FcdFNOOk5DXzAzNzExMC4xXHRMTjo1NTQ3MTEyOVxuIn0= -->
+<pre><code>@HD VN:1.3  SO:coordinate
+@SQ SN:NC_037097.1  LN:96198142
+@SQ SN:NC_037098.1  LN:57406636
+@SQ SN:NC_037099.1  LN:81079776
+@SQ SN:NC_037100.1  LN:74299616
+@SQ SN:NC_037101.1  LN:93271540
+@SQ SN:NC_037102.1  LN:77009353
+@SQ SN:NC_037103.1  LN:86953105
+@SQ SN:NC_037104.1  LN:73297397
+@SQ SN:NC_037105.1  LN:90872356
+@SQ SN:NC_037106.1  LN:60898746
+@SQ SN:NC_037107.1  LN:48052637
+@SQ SN:NC_037108.1  LN:77127610
+@SQ SN:NC_037109.1  LN:75288599
+@SQ SN:NC_037110.1  LN:55471129</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2119,6 +2541,13 @@ pwd</code></pre>
 <h1><span class="header-section-number">50</span> Catenate the file <code>count_files.sh</code> to <em>stdout</em></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY2F0IGNvdW50X2ZpbGVzLnNoXG5gYGAifQ== -->
+<pre class="bash"><code>cat count_files.sh</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5scyAtbFIgICogfCBhd2sgJ05GPjcnIHwgd2MgfCBhd2sgJ3twcmludCBcIkVzdGltYXRlZFwiLCAkMSwgXCJmaWxlcyBpbiB0aGUgY3VycmVudCBkaXJlY3RvcnlcIn0nXG4ifQ== -->
+<pre><code>
+ls -lR  * | awk 'NF&gt;7' | wc | awk '{print &quot;Estimated&quot;, $1, &quot;files in the current directory&quot;}'</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2126,14 +2555,34 @@ pwd</code></pre>
 <h1><span class="header-section-number">51</span> Note that <code>count_files.sh</code> is a short shell script. Try to execute it with <code>./count_files.sh</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuLi9jb3VudF9maWxlcy5zaFxuYGBgIn0= -->
+<pre class="bash"><code>./count_files.sh</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXN0aW1hdGVkIDgxIGZpbGVzIGluIHRoZSBjdXJyZW50IGRpcmVjdG9yeVxuIn0= -->
+<pre><code>Estimated 81 files in the current directory</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>Aha! You should have gotten a permission denied error. 99% of the time that occurs because the file is not user-executable.</p>
+<p>Aha! You should have gotten a permission denied error. 99% of the time that occurs because the file is not user-executable. - I didn’t get a permission denied error.</p>
 </div>
 <div id="list-long-count_files.sh-to-see-what-the-permissions-are-and-then-add-execute-x-permissions-to-users-and-groups-with-the-add-or-subtract-permissions-syntax-of-chmod-then-long-list-it-again" class="section level1">
 <h1><span class="header-section-number">52</span> List (long) <code>count_files.sh</code> to see what the permissions are, and then add execute (<code>x</code>) permissions to users and groups with the “add-or-subtract permissions syntax” of <code>chmod</code>, then long list it again</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWwgY291bnRfZmlsZXMuc2hcbmNobW9kIDY2NCBjb3VudF9maWxlcy5zaFxubHMgLWwgY291bnQtZmlsZXMuc2hcbmNobW9kIHVnK3ggY291bnRfZmlsZXMuc2hcbmxzIC1sIGNvdW50X2ZpbGVzLnNoXG5gYGAifQ== -->
+<pre class="bash"><code>ls -l count_files.sh
+chmod 664 count_files.sh
+ls -l count-files.sh
+chmod ug+x count_files.sh
+ls -l count_files.sh</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiLXJ3eHJ3eHItLSAgMSBjYXNzaWUgIHN0YWZmICA5NiBKYW4gMjggMTc6MDYgY291bnRfZmlsZXMuc2hcbi1yd3hyd3hyLS0gIDEgY2Fzc2llICBzdGFmZiAgOTYgSmFuIDI4IDE3OjA2IGNvdW50X2ZpbGVzLnNoXG4ifQ== -->
+<pre><code>-rwxrwxr--  1 cassie  staff  96 Jan 28 17:06 count_files.sh
+-rwxrwxr--  1 cassie  staff  96 Jan 28 17:06 count_files.sh</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibHM6IGNvdW50LWZpbGVzLnNoOiBObyBzdWNoIGZpbGUgb3IgZGlyZWN0b3J5XG4ifQ== -->
+<pre><code>ls: count-files.sh: No such file or directory</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2141,10 +2590,16 @@ pwd</code></pre>
 <h1><span class="header-section-number">53</span> Use chmod to change permissions of the files in the <code>silly</code> directory to match their names. For example for the first one you would use: <code>chmod 770 FILE-rwxrwx---</code>. Use the octal specifiers to <code>chmod</code>. Do this for all 5 files (one chmod command for each), and at the end do <code>ls -l silly</code> to verify they are correct.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY2htb2QgNjQwIHNpbGx5L0ZJTEUtcnctci0tLS0tXG5jaG1vZCA2NjQgc2lsbHkvRklMRS1ydy1ydy1yLS1cbmNobW9kIDc0MCBzaWxseS9GSUxFLXJ3eHItLS0tLVxuY2htb2QgNzc0IHNpbGx5L0ZJTEUtcnd4cnd4ci0tXG5gYGAifQ== -->
+<pre class="bash"><code>chmod 640 silly/FILE-rw-r-----
+chmod 664 silly/FILE-rw-rw-r--
+chmod 740 silly/FILE-rwxr-----
+chmod 774 silly/FILE-rwxrwxr--</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiVGhlIFwiR2V0dGluZyB0byBLbm93IFVuaXhcIiBQcm9ibGVtIFNldCIKb3V0cHV0OgogIGh0bWxfbm90ZWJvb2s6CiAgICBudW1iZXJfc2VjdGlvbnM6IHllcwotLS0KCjwhLS0gVGhlIGZvbGxvd2luZyBmZXcgbGluZXMganVzdCBjaGFuZ2Ugc29tZSBmb250IHNpemVzIGFuZCBjb2xvcnMgYW5kIGdpdmUgdXMgaG9yaXpvbnRhbCBzY3JvbGxpbmcgY29kZSBhbmQgb3V0cHV0IGJveGVzIC0tPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgpoMS50aXRsZSB7CiAgZm9udC1zaXplOiAzOHB4OwogIGNvbG9yOiBEYXJrUmVkOwp9CmgxIHsgLyogSGVhZGVyIDEgKi8KICBmb250LXNpemU6IDE4cHg7CiAgY29sb3I6IERhcmtCbHVlOwp9CnByZSBjb2RlLCBwcmUsIGNvZGUgewogIHdoaXRlLXNwYWNlOiBwcmUgIWltcG9ydGFudDsKICBvdmVyZmxvdy14OiBzY3JvbGwgIWltcG9ydGFudDsKICB3b3JkLWJyZWFrOiBrZWVwLWFsbCAhaW1wb3J0YW50OwogIHdvcmQtd3JhcDogaW5pdGlhbCAhaW1wb3J0YW50Owp9Cjwvc3R5bGU+CjwhLS0gRG9uJ3QgZWRpdCB0aGUgc3R1ZmYgYWJvdmUgaGVyZSAtLT4KClBsZWFzZSBzdWJtaXQgY29kZSBhbnN3ZXJzIGluIHRoZSBmZW5jZWQgYGJhc2hgIGNvZGUgYmxvY2tzIGJlbG93CmVhY2ggcXVlc3Rpb24vcmVxdWVzdCBiZWxvdy4gIE90aGVyIGFuc3dlcnMgKHRoYXQgYXJlIG5vdCBpbiB3cml0dGVuIGNvZGUgdG8gYmUgZXZhbHVhdGVkKQpqdXN0IGdvIGluIHRoZSBwbGFpbiBvbGQgZmVuY2VkIHRleHQgYmxvY2sgdW5kZXIgdGhlIHF1ZXN0aW9uLgoKV2hlbiB5b3UgYXJlIGRvbmUsIG1ha2Ugc3VyZSB0aGF0IGFsbCBjb2RlIGNodW5rcyBhcmUgZXZhbHVhdGVkIGZyb20KYSBjbGVhbiBlbnZpcm9ubWVudCAoUnVuIC0+IFJ1biBBbGwpCmFuZCB0aGVuIFByZXZpZXcgdGhlIGRvY3VtZW50IHRvIG1ha2UgYSBjbGVhbiAubmIuaHRtbCBvdXRwdXQgZmlsZS4KVGhhdCBpcyB3aGF0IEkgd2lsbCBsb29rIGF0IGFzIHlvdXIgc3VibWlzc2lvbiwgc28gY2hlY2sgaXQgdG8gbWFrZSBzdXJlIGl0Cmxvb2tzIHJpZ2h0LgoKUmVtZW1iZXIsIGV2ZXJ5IG5ldyBmZW5jZWQgY29kZSBibG9jayBpcyBnb2luZyB0byBzdGFydCBydW5uaW5nIGluIGEgc2hlbGwKaW4gdGhlIHByb2plY3QgZGlyZWN0b3J5LCBzbyBpZiB5b3UgbmVlZCB0byBjaGFuZ2UgdG8gYSBuZXcgZGlyZWN0b3J5LCB5b3UKbmVlZCB0byBwdXQgdGhhdCBgY2RgIGNvbW1hbmQgaW4gdGhlcmUuCgpGaW5hbGx5LCB0aGVyZSBpcyBub3QgVEFCIGNvbXBsZXRpb24gZm9yIGJhc2ggaW4gdGhlIGZlbmNlZCBgYmFzaGAgY29kZSBibG9ja3MuClNvLCB5b3UgcHJvYmFibHkgd2FudCB0byBkZXZlbG9wIHlvdXIgY29tbWFuZCBsaW5lcyBpbiB0aGUgdGVybWluYWwgd2luZG93LgoKSSBwcm92aWRlIGFuIGFuc3dlciBmb3IgcXVlc3Rpb25zIDEgYW5kIDIgYXMgZXhhbXBsZXMgb2Ygd2hhdCB3ZSBhcmUgbG9va2luZyBmb3IuCgoKIyBgY2RgIHRvIHlvdXIgaG9tZSBkaXJlY3RvcnkgYW5kIHByaW50IGl0cyBwYXRoCgpgYGB7YmFzaH0KY2Qgfgpwd2QKYGBgCgojIFVzZSBlY2hvIHRvIHByaW50IGBteSBuYW1lIGlzIC0tLS1gIHRvIHN0ZG91dC4gIFdoZXJlIGAtLS0tYCBpcyByZXBsYWNlZCBieSB5b3VyIG5hbWUKCmBgYHtiYXNofQplY2hvICJteSBuYW1lIGlzIEVyaWMiCmBgYAoKCiMgbm93LCByZWFsbHksIGFuc3dlciB0aGUgYWJvdmUgcXVlc3Rpb24gYXMgeW91cnNlbGYKCmBgYHtiYXNofQoKYGBgCgojIHByaW50IHRoZSBhYnNvbHV0ZSBwYXRoIG9mIHRoZSB0b3AgbGV2ZWwgb2YgdGhlIGhvbWV3b3JrIGRpcmVjdG9yeSB3aGVyZSB0aGlzIGlzCgpgYGB7YmFzaH0KCmBgYAoKIyBsaXN0LCBpbiBsb25nIGZvcm1hdCwgYWxsIHRoZSBmaWxlcyBhbmQgZGlyZWN0b3JpZXMgaW4gdGhpcyBob21ld29yayBkaXJlY3RvcnkKCmBgYHtiYXNofQoKYGBgCgpOb3RlIHRoYXQgc29tZSBvZiB0aGUgZmlsZSBuYW1lcyBtaWdodCBsb29rIGdhcmJsZWQgaW4gdGhlIFJtYXJrZG93biBvdXRwdXQuICBUaGlzCmlzIGEgY29uc2VxdWVuY3kgb2YgUk1hcmtkb3duL2h0bWwgbm90IHBsYXlpbmcgd2VsbCB3aXRoIHRoZSBzaGVsbCdzIHdheSBvZgpjb2xvcml6aW5nIGBsc2Agb3V0cHV0LgoKIyBUaGVyZSBpcyBhIGRpcmVjdG9yeSBjYWxsZWQgYC5naXRgIGluIGhlcmUgdGhhdCBkaWRuJ3QgZ2V0IGxpc3RlZC4gTGlzdCBldmVyeXRoaW5nIGFnYWluLCBidXQgbWFrZSBzdXJlIGAuZ2l0YCBpcyBpbiB0aGUgb3V0cHV0CgpgYGB7YmFzaH0KCmBgYAoKIyBXaGF0IGFyZSB0aGUgb3RoZXIgaGlkZGVuIGZpbGVzL2RpcmVjdG9yaWVzIHRoYXQgc2hvdyB1cCBpbiB0aGUgYWJvdmUgbGlzdGluZz8gSnVzdCBsaXN0IHRoZW0gaW4gdGhlIGZlbmNlZCB0ZXh0IGJsb2NrIGJlbG93CgpgYGAKCmBgYAoKIyBMaXN0IChsb25nIGZvcm1hdCkgdGhlIGNvbnRlbnRzIG9mIHRoZSBkaXJlY3RvcnkgYC5naXRgCgpgYGB7YmFzaH0KCmBgYAoKIyBpZiB5b3Ugd2FudGVkIHRvIHR5cGUgYGxzIGZhc3RxL0RQQ2hfcGxhdGUxX0EwNl9TNi5SMS5mcS5nemAgb24gdGhlIGNvbW1hbmQgbGluZSwgd2hhdCBpcyB0aGUgZmV3ZXN0IGtleXN0cm9rZXMgdGhhdCBjYW4gZ2V0IHlvdSBgZmFzdHEvRFBDaF9wbGF0ZTFfQTA2X1M2LlIxLmZxLmd6YCB1c2luZyBUQUIgY29tcGxldGlvbj8KCkkgZGlkIGl0IGluIDEwIChjb3VudGluZyBUQUJzKS4uLgoKYGBgCgpgYGAKCiMgbWFrZSBhIG5ldyBkaXJlY3RvcnkgY2FsbGVkIGBsb25lbHktZmFzdHFzYCwgYW5kIGluc2lkZSBvZiB0aGF0LCB0d28gZGlyZWN0b3JpZXMgUjEgYW5kIFIyCgpgYGB7YmFzaH0KCmBgYAoKIyBDb3B5IChub3QgbW92ZSkgYWxsIHRoZSByZWFkMSAoYFIxYCkgZmFzdHEgZmlsZXMgaW4gYGZhc3Rxc2AgaW50byBgbG9uZWx5LWZhc3Rxcy9SMWAgYW5kIGFsbCB0aGUgcmVhZDIgZmFzdHFzIGludG8gYGxvbmVseS1mYXN0cXMvUjJgLiBXaGVuIHlvdSBhcmUgZG9uZSwgb24gdGhlIG5leHQgbGluZSBpbiB0aGUgY29kZSBibG9jaywgbGlzdCB0aGUgY29udGVudHMgb2YgYGxvbmVseS1mYXN0cXMvUjFgIGFuZCBgbG9uZWx5LWZhc3Rxcy9SMmAKCmBgYHtiYXNofQoKYGBgCgojIGRvIGEgcmVjdXJzaXZlLCBzaG9ydCBsaXN0aW5nIG9mIHRoZSBjb250ZW50cyBvZiBgbG9uZWx5LWZhc3Rxc2AKCmBgYHtiYXNofQoKYGBgCgojIFVzZSB0aGUgcmVjdXJzaXZlICgtcikgb3B0aW9uIHRvIHJlbW92ZSBgbG9uZWx5LWZhc3Rxc2AgYW5kIGl0cyBjb250ZW50cwoKYGBge2Jhc2h9CgpgYGAKCiMgTWFrZSB0d28gbmV3IGRpcmVjdG9yaWVzIGluIHRoZSB0b3AgbGV2ZWwgb2YgdGhlIHJlcG8gY2FsbGVkIGBmcV9BQmAgYW5kIGBmcV9ub3RBQmAKCmBgYHtiYXNofQoKYGBgCgpJZiB5b3UgZ2V0IGFuIGVycm9yIGJlY2F1c2UgeW91IGFscmVhZHkgY3JlYXRlZCB0aG9zZSBkaXJlY3RvcmllcywgdGhhdCBpcyBPSwpkaXJlY3RvcmllcyBhcmUgdGhlcmUsIGl0J3MgYWxsIGdvb2QuLi4KCiMgVXNpbmcgdGhlIGBbYCBgXWAgY29weSB0aGUgUjEgZmlsZXMgaW4gYGZhc3Rxc2AgdGhhdCBiZWxvbmcgdG8gc2FtcGxlIG5hbWVzICh0aGUgcGFydCBpbW1lZGlhdGVseSBhZnRlciBgRFBDaF9wbGF0ZTFfYCkgc3RhcnRpbmcgd2l0aCBhbiBgQWAgb3IgYEJgIHRvIGBmcV9BQmAuICAKCmBgYHtiYXNofQoKYGBgCgojIE5vdywgdXNpbmcgbmVnYXRpb24gKGBeYCkgd2l0aCBgW2AgYW5kIGBdYCBjb3B5IGFsbCB0aGUgUjEgZmlsZXMgdGhhdCBkb24ndCBiZWxvbmcgdG8gc2FtcGxlIG5hbWVzIHN0YXJ0aW5nIHdpdGggYW4gYEFgIG9yIGEgYEJgIHRvIGBmcV9ub3RBQmAuIFdoZW4geW91IGFyZSBkb25lLCBvbiB0aGUgbmV4dCBsaW5lIGluIHRoZSBjb2RlIGJsb2NrLCBsaXN0IHRoZSBjb250ZW50cyBvZiBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLiAKCmBgYHtiYXNofQoKYGBgCgojIFJlbW92ZSBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLCBhbmQgdGhlaXIgY29udGVudHMKCmBgYHtiYXNofQoKYGBgCgojIFVzaW5nIHRoZSBgeyx9YCBjb25zdHJ1Y3QgY3JlYXRlIGZpdmUgZGlyZWN0b3JpZXMgbmFtZWQgYGRpcl9BYCwgYGRpcl9DYCwgYGRpcl9FYCwgYGRpcl9HYCwgYW5kIGBkaXJfSWAsIGFuZCBsaXN0IHRoZW0gKGJ1dCBub3QgdGhlaXIgY29udGVudHMpIHdoZW4geW91IGFyZSBkb25lCgpgYGB7YmFzaH0KCmBgYAoKIyBVc2luZyBnbG9iYmluZywgcmVtb3ZlIGBkaXJfQWAsIGBkaXJfQ2AsIGBkaXJfRWAsIGBkaXJfR2AsIGFuZCBgZGlyX0lgLCB1c2luZyBhIGNvbW1hbmQgd2l0aCA4IGNoYXJhY3RlcnMgKGluY2x1ZGluZyBzcGFjZXMpCgpgYGB7YmFzaH0KCmBgYAoKIyBDcmVhdGUgYSBkaXJlY3RvcnkgY2FsbGVkIGBuaWNlX2Rpcl9uYW1lYCBhbmQgdGhlbiB1c2UgYGVjaG9gLCByZWRpcmVjdGluZyBpdHMgb3V0cHV0IHRvIGNyZWF0ZSBhIGZpbGUgY2FsbGVkIGBuaWNlX2ZpbGVfbmFtZWAgaW5zaWRlIG9mIGBuaWNlX2Rpcl9uYW1lYCB3aG9zZSBjb250ZW50cyBpcyB0aGUgc3RyaW5nIGBBIHN0cmluZyBpbiBhIGZpbGUhYAoKYGBge2Jhc2h9CgpgYGAKCiMgQ2F0ZW5hdGUgdGhlIGNvbnRlbnRzIG9mIGBuaWNlX2Rpcl9uYW1lL25pY2VfZmlsZV9uYW1lYCB0byBfc3Rkb3V0XwoKYGBge2Jhc2h9CgpgYGAKCiMgQ3JlYXRlIGEgZGlyZWN0b3J5IGNhbGxlZCBgYmFkIGRpcmVjdG9yeSBuYW1lIHdpdGggc3BhY2VzYCwgYW5kIHRoZW4sIHdpdGggcmVkaXJlY3Rpb24sIGNyZWF0ZSBhIGZpbGUgaW5zaWRlIGl0LCBuYW1lZCBgYmFkIGZpbGUgbmFtZSB3aXRoIHNwYWNlc2Agd2hvc2UgY29udGVudHMgYXJlIHRoZSBzdHJpbmcgYFdob2EhIE5vIHNwYWNlcywgcGxlYXNlIWAuICBVc2UgYmFja3NsYXNoIGVzY2FwaW5nIGluc3RlYWQgb2YgcXVvdGluZwoKYGBge2Jhc2h9CgpgYGAKCiMgQ2F0ZW5hdGUgdGhlIGNvbnRlbnRzIG9mIGBiYWQgZGlyZWN0b3J5IG5hbWUgd2l0aCBzcGFjZXMvYmFkIGZpbGUgbmFtZSB3aXRoIHNwYWNlc2AKCmBgYHtiYXNofQoKYGBgCgojIGxpc3QgdGhlIGRpcmVjdG9yaWVzIChqdXN0IHRoZSBuYW1lcywgbm90IHRoZSBjb250ZW50cyAoYC1kYCkpIGBiYWQgZGlyZWN0b3J5IG5hbWUgd2l0aCBzcGFjZXNgIGFuZCBgbmljZV9kaXJfbmFtZWAuCgpgYGB7YmFzaH0KCmBgYAoKIyBPbmNlIHlvdSBhcmUgY29udmluY2VkIHRoYXQgeW91IGNhbiBsaXN0IHRoZSBkaXJlY3RvcmllcyBjb3JyZWN0bHkgaW4geW91ciB0ZXJtaW5hbCwgcmVjYWxsIHRoYXQgYGxzYCBjb21tYW5kIGFuZCByZXBsYWNlIGBsc2Agd2l0aCBgcm0gLXJgIHRvIHJlbW92ZSB0aGVtCgpgYGB7YmFzaH0KCmBgYAoKIyBXaHkgaXMgaXQgYSBnb29kIGlkZWEgdG8gYGxzYCB0aGluZ3MgYmVmb3JlIHJlbW92aW5nIHRoZW0/CgpgYGAKCmBgYAoKIyBJZiB5b3UgaGFkIGp1c3QgdHlwZWQgYHJtIC1yIGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlc2Agd2hhdCB3b3VsZCBVbml4IGhhdmUgdHJpZWQgdG8gcmVtb3ZlPwoKYGBgCgpgYGAKCiMgVGhlcmUgYXJlIGJhbSwgc2FtLCBhbmQgZmFzdHEgZmlsZXMsIGluIHRoZSBhcHByb3ByaWF0ZWx5IG5hbWVkIGRpcmVjdG9yaWVzIGZvciBzYW1wbGUgYEEwNV9TNWAuIE1ha2UgYSBkaXJlY3RvcnkgbmFtZWQgYEEwNV9TNWAgYW5kIGNvcHkgYWxsIHRob3NlIGZpbGVzIGludG8gdGhhdCBuZXcgZGlyZWN0b3J5LiAgTGlzdCB0aGUgZGlyZWN0b3J5IHdoZW4geW91IGFyZSBkb25lLgoKYGBge2Jhc2h9CgpgYGAKCiMgcmVtb3ZlIHRoZSBkaXJlY3RvcnkgYEEwNV9TNWAgYW5kIGl0cyBjb250ZW50cwoKYGBge2Jhc2h9CgpgYGAKCiMgVXNlIGBsc2AgdG8gdHJ5IHRvIGxpc3QgdGhlIGZpbGUgYGl0X2FpbnRfaGVyZWAKCmBgYHtiYXNofQoKYGBgCgojIE5vdywgZG8gdGhlIHNhbWUgdGhpbmcgYnV0IHJlZGlyZWN0IF9zdGRlcnJfIGludG8gYSBmaWxlIGNhbGxlZCBgbXlfYmFkLnR4dGAsIGFuZCB0aGVuIGNhdGVuYXRlIHRoZSBjb250ZW50cyBvZiB0aGF0IGZpbGUsIGFuZCB0aGVuIHJlbW92ZSBpdAoKYGBge2Jhc2h9CgpgYGAKCiMgVGhlIGZpbGVzIGluIGBmYXN0cWAgYXJlIHRleHQgZmlsZXMsIGJ1dCB0aGV5IGFyZSBhbGwgZ3ppcHBlZC4gIFVzaW5nIGBnemNhdGAgYW5kIGEgcGlwZSwgdmlldyB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMS5mcS5nemAKCmBgYHtiYXNofQoKYGBgCgojIERvIHRoZSBzYW1lIHRvIHNlZSB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMi5mcS5nemAKCmBgYHtiYXNofQoKYGBgCgojIFdoYXQgZG8geW91IG5vdGljZSBhYm91dCB0aGUgbmFtZXMgb2YgdGhlIHR3byByZWFkcyBpbiBlYWNoIGZpbGUgKExpbmVzIDEgYW5kIDUsIHRoYXQgc3RhcnQgd2l0aCBhIGBAYCkKCmBgYAoKYGBgCgoKIyBQcmludCB0aGUgZGF0ZSwgcmVkaXJlY3QgaXQgdG8gYSBmaWxlIGNhbGxlZCBgbm93LnR4dGAsIGNhdGVuYXRlIHRoYXQgZmlsZSB0byBfc3Rkb3V0XyBhbmQgdGhlbiByZW1vdmUgaXQKCmBgYHtiYXNofQoKYGBgCgojIENvdW50IHRoZSBudW1iZXIgb2YgbGluZXMvd29yZHMvY2hhcmFjdGVycyAodXNpbmcgYHdjYCkgaW4gdGhlIHR3byBTQU0gZmlsZXMgaW4gdGhlIGBzYW1gIGRpcmVjdG9yeQoKYGBge2Jhc2h9CgpgYGAKCiMgTm90ZSB0aGF0IGd6Y2F0IHdpbGwgZGVjb21wcmVzcyBhbGwgZmlsZXMgeW91IGdpdmUgaXQgYW5kIHNlbmQgdGhlIG91dHB1dCB0byBfc3Rkb3V0Xy4gIEtub3dpbmcgdGhpcywgY291bnQgaG93IG1hbnkgbGluZXMgYXJlIGluIGFsbCB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgIChhZnRlciBkZWNvbXByZXNzaW5nIHRoZW0gaW50byB0ZXh0IGZpbGVzKSwgYW5kIGFsc28gY291bnQgdXAgYWxsIHRoZSBsaW5lcyBpbiB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgLiAgTm90ZSB0aGV5IHNob3VsZCBiZSB0aGUgc2FtZS4KCmBgYHtiYXNofQoKYGBgCgojIE5vdywgZ3pjYXQgYWxsIHRoZSBgUjFgIGZpbGVzIGluIGBmYXN0cWAgYW5kIHJlZGlyZWN0IHRoYXQgdG8gYSBmaWxlIGNhbGxlZCBgUjFfYWxsX3ZpYV9nemNhdC5mcWAgaW4gdGhlIHRvcCBkaXJlY3Rvcnkgb2YgdGhlIHJlcG8KCmBgYHtiYXNofQoKYGBgCgojIFBlb3BsZSBhcmUgdXN1YWxseSBmYW1pbGlhciB3aXRoIHVzaW5nIGBjYXRgIHRvIGNhdGVuYXRlIHRleHQgZmlsZXMuICBJdCB0dXJucyBvdXQgdGhhdCB5b3UgY2FuIGFsc28gY2F0ZW5hdGUgYGd6aXBgIGNvbXByZXNzZWQgZmlsZXMuICBUaGUgcmVzdWx0IGlzIGFub3RoZXIgcHJvcGVybHkgZ3ppcHBlZCBmaWxlIHRoYXQgY2FuIGJlIGRlY29tcHJlc3NlZC4gIENhdGVuYXRlIGFsbCB0aGUgZ3ppcHBlZCBgUjFgIGZpbGVzIGluIGBmYXN0cWAgaW50byBhIHNpbmdsZSAoc3RpbGwgZ3ppcHBlZCkgZmlsZSBjYWxsZWQgYFIxX2FsbF92aWFfY2F0LmZxLmd6YAoKYGBge2Jhc2h9CgpgYGAKCiMgQ29weSBgUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgIHRvIGBjb3B5X29mX1IxX2FsbF92aWFfY2F0LmZxLmd6YAoKYGBge2Jhc2h9CgpgYGAKCiMgTm93LCBkZWNvbXByZXNzIGBSMV9hbGxfdmlhX2NhdC5mcS5nemAgaW50byBgUjFfYWxsX3ZpYV9jYXQuZnFgCgpgYGB7YmFzaH0KCmBgYAoKIyBDb21wdXRlIHRoZSBTSEExIGhhc2hlcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgUjFfYWxsX3ZpYV9nemNhdC5mcWAgdG8gY29uZmlybSB0aGV5IGFyZSBpZGVudGljYWwKCmBgYHtiYXNofQoKYGBgCgojIEJ1dCBub3csIGd6aXAgYFIxX2FsbF92aWFfZ3pjYXQuZnFgIGFuZCBjb21wYXJlIHRoZSByZXN1bHQgdG8gYGNvcHlfb2ZfUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgIGJ5IGNvbXB1dGluZyB0aGUgU0hBMSBoYXNoIG9mIGVhY2gKCmBgYHtiYXNofQoKYGBgCgpOb3RlIHRoYXQgdGhpcyBzaG93cyB0aGF0LCBhbHRob3VnaCB0aGUgY29tcHJlc3NlZCBmaWxlcyBhcmUgbm90IGlkZW50aWNhbCwgdGhlaXIgY29udGVudHMgKG9uY2UgZGVjb21wcmVzc2VkLCBhcmUgaWRlbnRpY2FsKS4KCiMgdXNpbmcgYGR1YCB3aXRoIHRoZSBgLWhgIChpLmUuICJodW1hbiByZWFkYWJsZSIgb3B0aW9uKSBwcmludCB0aGUgZmlsZSBzaXplcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgY29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5nemAuCgpgYGB7YmFzaH0KCmBgYAoKIyBCeSB3aGF0IGZhY3RvciAoYXBwcm94aW1hdGVseSkgZG9lcyB0aGUgY29tcHJlc3Npb24gc2F2ZSBzdG9yYWdlIHNwYWNlIG9uIHlvdXIgZGlzaz8KCmBgYAoKYGBgCgojIFJlbW92ZSBhbGwgZmlsZXMgc3RhcnRpbmcgd2l0aCBgUjFfYWxsYCBhbmQgYGNvcHlfb2ZfUjFgCgpgYGB7YmFzaH0KCmBgYAoKIyBOb3csIHByaW50IHRoZSBmaWxlIHNpemVzICh3aXRoIGBkdSAtaGAsIGFnYWluKSBvZiB0aGUgZmlsZXMgaW4gYGJhbWAgdG8gdGhlIGZpbGVzIGluIGBzYW1gCgpgYGB7YmFzaH0KCmBgYAoKCiMgUHJpbnQgdGhlIGxhc3QgMTUgbGluZXMgb2YgYHNhbS9EUENoX3BsYXRlMV9BMDVfUzUuc2FtYCB0byBfc3Rkb3V0XwoKYGBge2Jhc2h9CgpgYGAKCklmIGl0IGFsbCBsb29rcyBsaWtlIGdpYmJlcmlzaCB0byB5b3UsIGRlc3BhaXIgbm90ISAgWW91IHdpbGwgYmUgc3VwZXIgZmFtaWxpYXIgd2l0aAp0aGlzIGZpbGUgZm9ybWF0IHdpdGhpbiBhIGNvdXBsZSBvZiB3ZWVrcyBmcm9tIG5vdy4KCgojIFByaW50IHRoZSBfZmlyc3RfIDE1IGxpbmVzIG9mIGBzYW0vRFBDaF9wbGF0ZTFfQTA1X1M1LnNhbWAgdG8gX3N0ZG91dF8KCmBgYHtiYXNofQoKYGBgCgojIENhdGVuYXRlIHRoZSBmaWxlIGBjb3VudF9maWxlcy5zaGAgdG8gX3N0ZG91dF8KCmBgYHtiYXNofQoKYGBgCgojIE5vdGUgdGhhdCBgY291bnRfZmlsZXMuc2hgIGlzIGEgc2hvcnQgc2hlbGwgc2NyaXB0LiBUcnkgdG8gZXhlY3V0ZSBpdCB3aXRoIGAuL2NvdW50X2ZpbGVzLnNoYAoKYGBge2Jhc2h9CgpgYGAKCkFoYSEgWW91IHNob3VsZCBoYXZlIGdvdHRlbiBhIHBlcm1pc3Npb24gZGVuaWVkIGVycm9yLiAgOTklIG9mIHRoZSB0aW1lIHRoYXQgb2NjdXJzIGJlY2F1c2UKdGhlIGZpbGUgaXMgbm90IHVzZXItZXhlY3V0YWJsZS4KCiMgTGlzdCAobG9uZykgYGNvdW50X2ZpbGVzLnNoYCB0byBzZWUgd2hhdCB0aGUgcGVybWlzc2lvbnMgYXJlLCBhbmQgdGhlbiBhZGQgZXhlY3V0ZSAoYHhgKSBwZXJtaXNzaW9ucyB0byB1c2VycyBhbmQgZ3JvdXBzIHdpdGggdGhlICJhZGQtb3Itc3VidHJhY3QgcGVybWlzc2lvbnMgc3ludGF4IiBvZiBgY2htb2RgLCB0aGVuIGxvbmcgbGlzdCBpdCBhZ2FpbgoKYGBge2Jhc2h9CgpgYGAKCgoKCiMgVXNlIGNobW9kIHRvIGNoYW5nZSBwZXJtaXNzaW9ucyBvZiB0aGUgZmlsZXMgaW4gdGhlIGBzaWxseWAgZGlyZWN0b3J5IHRvIG1hdGNoIHRoZWlyIG5hbWVzLiBGb3IgZXhhbXBsZSBmb3IgdGhlIGZpcnN0IG9uZSB5b3Ugd291bGQgdXNlOiBgY2htb2QgNzcwIEZJTEUtcnd4cnd4LS0tYC4gIFVzZSB0aGUgb2N0YWwgc3BlY2lmaWVycyB0byBgY2htb2RgLiBEbyB0aGlzIGZvciBhbGwgNSBmaWxlcyAob25lIGNobW9kIGNvbW1hbmQgZm9yIGVhY2gpLCBhbmQgYXQgdGhlIGVuZCBkbyBgbHMgLWwgc2lsbHlgIHRvIHZlcmlmeSB0aGV5IGFyZSBjb3JyZWN0LgoKYGBge2Jhc2h9CgpgYGAK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiVGhlIFwiR2V0dGluZyB0byBLbm93IFVuaXhcIiBQcm9ibGVtIFNldCIKb3V0cHV0OgogIGh0bWxfbm90ZWJvb2s6CiAgICBudW1iZXJfc2VjdGlvbnM6IHllcwotLS0KCjwhLS0gVGhlIGZvbGxvd2luZyBmZXcgbGluZXMganVzdCBjaGFuZ2Ugc29tZSBmb250IHNpemVzIGFuZCBjb2xvcnMgYW5kIGdpdmUgdXMgaG9yaXpvbnRhbCBzY3JvbGxpbmcgY29kZSBhbmQgb3V0cHV0IGJveGVzIC0tPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgpoMS50aXRsZSB7CiAgZm9udC1zaXplOiAzOHB4OwogIGNvbG9yOiBEYXJrUmVkOwp9CmgxIHsgLyogSGVhZGVyIDEgKi8KICBmb250LXNpemU6IDE4cHg7CiAgY29sb3I6IERhcmtCbHVlOwp9CnByZSBjb2RlLCBwcmUsIGNvZGUgewogIHdoaXRlLXNwYWNlOiBwcmUgIWltcG9ydGFudDsKICBvdmVyZmxvdy14OiBzY3JvbGwgIWltcG9ydGFudDsKICB3b3JkLWJyZWFrOiBrZWVwLWFsbCAhaW1wb3J0YW50OwogIHdvcmQtd3JhcDogaW5pdGlhbCAhaW1wb3J0YW50Owp9Cjwvc3R5bGU+CjwhLS0gRG9uJ3QgZWRpdCB0aGUgc3R1ZmYgYWJvdmUgaGVyZSAtLT4KClBsZWFzZSBzdWJtaXQgY29kZSBhbnN3ZXJzIGluIHRoZSBmZW5jZWQgYGJhc2hgIGNvZGUgYmxvY2tzIGJlbG93CmVhY2ggcXVlc3Rpb24vcmVxdWVzdCBiZWxvdy4gIE90aGVyIGFuc3dlcnMgKHRoYXQgYXJlIG5vdCBpbiB3cml0dGVuIGNvZGUgdG8gYmUgZXZhbHVhdGVkKQpqdXN0IGdvIGluIHRoZSBwbGFpbiBvbGQgZmVuY2VkIHRleHQgYmxvY2sgdW5kZXIgdGhlIHF1ZXN0aW9uLgoKV2hlbiB5b3UgYXJlIGRvbmUsIG1ha2Ugc3VyZSB0aGF0IGFsbCBjb2RlIGNodW5rcyBhcmUgZXZhbHVhdGVkIGZyb20KYSBjbGVhbiBlbnZpcm9ubWVudCAoUnVuIC0+IFJ1biBBbGwpCmFuZCB0aGVuIFByZXZpZXcgdGhlIGRvY3VtZW50IHRvIG1ha2UgYSBjbGVhbiAubmIuaHRtbCBvdXRwdXQgZmlsZS4KVGhhdCBpcyB3aGF0IEkgd2lsbCBsb29rIGF0IGFzIHlvdXIgc3VibWlzc2lvbiwgc28gY2hlY2sgaXQgdG8gbWFrZSBzdXJlIGl0Cmxvb2tzIHJpZ2h0LgoKUmVtZW1iZXIsIGV2ZXJ5IG5ldyBmZW5jZWQgY29kZSBibG9jayBpcyBnb2luZyB0byBzdGFydCBydW5uaW5nIGluIGEgc2hlbGwKaW4gdGhlIHByb2plY3QgZGlyZWN0b3J5LCBzbyBpZiB5b3UgbmVlZCB0byBjaGFuZ2UgdG8gYSBuZXcgZGlyZWN0b3J5LCB5b3UKbmVlZCB0byBwdXQgdGhhdCBgY2RgIGNvbW1hbmQgaW4gdGhlcmUuCgpGaW5hbGx5LCB0aGVyZSBpcyBub3QgVEFCIGNvbXBsZXRpb24gZm9yIGJhc2ggaW4gdGhlIGZlbmNlZCBgYmFzaGAgY29kZSBibG9ja3MuClNvLCB5b3UgcHJvYmFibHkgd2FudCB0byBkZXZlbG9wIHlvdXIgY29tbWFuZCBsaW5lcyBpbiB0aGUgdGVybWluYWwgd2luZG93LgoKSSBwcm92aWRlIGFuIGFuc3dlciBmb3IgcXVlc3Rpb25zIDEgYW5kIDIgYXMgZXhhbXBsZXMgb2Ygd2hhdCB3ZSBhcmUgbG9va2luZyBmb3IuCgoKIyBgY2RgIHRvIHlvdXIgaG9tZSBkaXJlY3RvcnkgYW5kIHByaW50IGl0cyBwYXRoCgpgYGB7YmFzaH0KY2Qgfgpwd2QKYGBgCgojIFVzZSBlY2hvIHRvIHByaW50IGBteSBuYW1lIGlzIC0tLS1gIHRvIHN0ZG91dC4gIFdoZXJlIGAtLS0tYCBpcyByZXBsYWNlZCBieSB5b3VyIG5hbWUKCmBgYHtiYXNofQplY2hvICJteSBuYW1lIGlzIEVyaWMiCmBgYAoKCiMgbm93LCByZWFsbHksIGFuc3dlciB0aGUgYWJvdmUgcXVlc3Rpb24gYXMgeW91cnNlbGYKCmBgYHtiYXNofQplY2hvICJteSBuYW1lIGlzIENhc3NpZSIKYGBgCgojIHByaW50IHRoZSBhYnNvbHV0ZSBwYXRoIG9mIHRoZSB0b3AgbGV2ZWwgb2YgdGhlIGhvbWV3b3JrIGRpcmVjdG9yeSB3aGVyZSB0aGlzIGlzCgpgYGB7YmFzaH0KcHdkCmBgYAoKIyBsaXN0LCBpbiBsb25nIGZvcm1hdCwgYWxsIHRoZSBmaWxlcyBhbmQgZGlyZWN0b3JpZXMgaW4gdGhpcyBob21ld29yayBkaXJlY3RvcnkKCmBgYHtiYXNofQpscyAtbApgYGAKCk5vdGUgdGhhdCBzb21lIG9mIHRoZSBmaWxlIG5hbWVzIG1pZ2h0IGxvb2sgZ2FyYmxlZCBpbiB0aGUgUm1hcmtkb3duIG91dHB1dC4gIFRoaXMKaXMgYSBjb25zZXF1ZW5jeSBvZiBSTWFya2Rvd24vaHRtbCBub3QgcGxheWluZyB3ZWxsIHdpdGggdGhlIHNoZWxsJ3Mgd2F5IG9mCmNvbG9yaXppbmcgYGxzYCBvdXRwdXQuCgojIFRoZXJlIGlzIGEgZGlyZWN0b3J5IGNhbGxlZCBgLmdpdGAgaW4gaGVyZSB0aGF0IGRpZG4ndCBnZXQgbGlzdGVkLiBMaXN0IGV2ZXJ5dGhpbmcgYWdhaW4sIGJ1dCBtYWtlIHN1cmUgYC5naXRgIGlzIGluIHRoZSBvdXRwdXQKCmBgYHtiYXNofQpscyAtYWwKYGBgCgojIFdoYXQgYXJlIHRoZSBvdGhlciBoaWRkZW4gZmlsZXMvZGlyZWN0b3JpZXMgdGhhdCBzaG93IHVwIGluIHRoZSBhYm92ZSBsaXN0aW5nPyBKdXN0IGxpc3QgdGhlbSBpbiB0aGUgZmVuY2VkIHRleHQgYmxvY2sgYmVsb3cKCmBgYAouCi4uCi5SaGlzdG9yeQouUnByb2oudXNlcgouZ2l0aWdub3JlCmBgYAoKIyBMaXN0IChsb25nIGZvcm1hdCkgdGhlIGNvbnRlbnRzIG9mIHRoZSBkaXJlY3RvcnkgYC5naXRgCgpgYGB7YmFzaH0KbHMgLWwgLmdpdC8KYGBgCgojIGlmIHlvdSB3YW50ZWQgdG8gdHlwZSBgbHMgZmFzdHEvRFBDaF9wbGF0ZTFfQTA2X1M2LlIxLmZxLmd6YCBvbiB0aGUgY29tbWFuZCBsaW5lLCB3aGF0IGlzIHRoZSBmZXdlc3Qga2V5c3Ryb2tlcyB0aGF0IGNhbiBnZXQgeW91IGBmYXN0cS9EUENoX3BsYXRlMV9BMDZfUzYuUjEuZnEuZ3pgIHVzaW5nIFRBQiBjb21wbGV0aW9uPwoKSSBkaWQgaXQgaW4gMTAgKGNvdW50aW5nIFRBQnMpLi4uCgpgYGAKMTAgYXMgd2VsbCEKYGBgCgojIG1ha2UgYSBuZXcgZGlyZWN0b3J5IGNhbGxlZCBgbG9uZWx5LWZhc3Rxc2AsIGFuZCBpbnNpZGUgb2YgdGhhdCwgdHdvIGRpcmVjdG9yaWVzIFIxIGFuZCBSMgoKYGBge2Jhc2h9Cm1rZGlyIGxvbmVseS1mYXN0cXMKY2QgbG9uZWx5LWZhc3Rxcwpta2RpciBSMQpta2RpciBSMgpgYGAKCiMgQ29weSAobm90IG1vdmUpIGFsbCB0aGUgcmVhZDEgKGBSMWApIGZhc3RxIGZpbGVzIGluIGBmYXN0cXNgIGludG8gYGxvbmVseS1mYXN0cXMvUjFgIGFuZCBhbGwgdGhlIHJlYWQyIGZhc3RxcyBpbnRvIGBsb25lbHktZmFzdHFzL1IyYC4gV2hlbiB5b3UgYXJlIGRvbmUsIG9uIHRoZSBuZXh0IGxpbmUgaW4gdGhlIGNvZGUgYmxvY2ssIGxpc3QgdGhlIGNvbnRlbnRzIG9mIGBsb25lbHktZmFzdHFzL1IxYCBhbmQgYGxvbmVseS1mYXN0cXMvUjJgCgpgYGB7YmFzaH0KY2QgZmFzdHEKY3AgKlIxLmZxLmd6IC9Vc2Vycy9jYXNzaWUvRGVza3RvcC9Fcmljc19jbGFzcy91bml4LXBsYXktd2l0aC1nZW5vbWljLWRhdGEtY2NvbHVtYnUvbG9uZWx5LWZhc3Rxcy9SMS8KYGBgCgojIGRvIGEgcmVjdXJzaXZlLCBzaG9ydCBsaXN0aW5nIG9mIHRoZSBjb250ZW50cyBvZiBgbG9uZWx5LWZhc3Rxc2AKCmBgYHtiYXNofQpscyAtUiAvVXNlcnMvY2Fzc2llL0Rlc2t0b3AvRXJpY3NfY2xhc3MvdW5peC1wbGF5LXdpdGgtZ2Vub21pYy1kYXRhLWNjb2x1bWJ1L2xvbmVseS1mYXN0cXMvCmBgYAoKIyBVc2UgdGhlIHJlY3Vyc2l2ZSAoLXIpIG9wdGlvbiB0byByZW1vdmUgYGxvbmVseS1mYXN0cXNgIGFuZCBpdHMgY29udGVudHMKCmBgYHtiYXNofQpybSAtciBsb25lbHktZmFzdHFzCmBgYAoKIyBNYWtlIHR3byBuZXcgZGlyZWN0b3JpZXMgaW4gdGhlIHRvcCBsZXZlbCBvZiB0aGUgcmVwbyBjYWxsZWQgYGZxX0FCYCBhbmQgYGZxX25vdEFCYAoKYGBge2Jhc2h9Cm1rZGlyIGZxX0FCCm1rZGlyIGZxX25vdEFCCmBgYAoKSWYgeW91IGdldCBhbiBlcnJvciBiZWNhdXNlIHlvdSBhbHJlYWR5IGNyZWF0ZWQgdGhvc2UgZGlyZWN0b3JpZXMsIHRoYXQgaXMgT0sKZGlyZWN0b3JpZXMgYXJlIHRoZXJlLCBpdCdzIGFsbCBnb29kLi4uCgojIFVzaW5nIHRoZSBgW2AgYF1gIGNvcHkgdGhlIFIxIGZpbGVzIGluIGBmYXN0cXNgIHRoYXQgYmVsb25nIHRvIHNhbXBsZSBuYW1lcyAodGhlIHBhcnQgaW1tZWRpYXRlbHkgYWZ0ZXIgYERQQ2hfcGxhdGUxX2ApIHN0YXJ0aW5nIHdpdGggYW4gYEFgIG9yIGBCYCB0byBgZnFfQUJgLiAgCgpgYGB7YmFzaH0KY3AgL1VzZXJzL2Nhc3NpZS9EZXNrdG9wL0VyaWNzX2NsYXNzL3VuaXgtcGxheS13aXRoLWdlbm9taWMtZGF0YS1jY29sdW1idS9mYXN0cS9EUENoX3BsYXRlMV9bQS1CXSouZnEuZ3ogIC9Vc2Vycy9jYXNzaWUvRGVza3RvcC9Fcmljc19jbGFzcy91bml4LXBsYXktd2l0aC1nZW5vbWljLWRhdGEtY2NvbHVtYnUvZnFfQUIKYGBgCgojIE5vdywgdXNpbmcgbmVnYXRpb24gKGBeYCkgd2l0aCBgW2AgYW5kIGBdYCBjb3B5IGFsbCB0aGUgUjEgZmlsZXMgdGhhdCBkb24ndCBiZWxvbmcgdG8gc2FtcGxlIG5hbWVzIHN0YXJ0aW5nIHdpdGggYW4gYEFgIG9yIGEgYEJgIHRvIGBmcV9ub3RBQmAuIFdoZW4geW91IGFyZSBkb25lLCBvbiB0aGUgbmV4dCBsaW5lIGluIHRoZSBjb2RlIGJsb2NrLCBsaXN0IHRoZSBjb250ZW50cyBvZiBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLiAKCmBgYHtiYXNofQpjcCAvVXNlcnMvY2Fzc2llL0Rlc2t0b3AvRXJpY3NfY2xhc3MvdW5peC1wbGF5LXdpdGgtZ2Vub21pYy1kYXRhLWNjb2x1bWJ1L2Zhc3RxL0RQQ2hfcGxhdGUxX1teQS1CXSouZnEuZ3ogIC9Vc2Vycy9jYXNzaWUvRGVza3RvcC9Fcmljc19jbGFzcy91bml4LXBsYXktd2l0aC1nZW5vbWljLWRhdGEtY2NvbHVtYnUvZnFfbm90QUIKYGBgCgojIFJlbW92ZSBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLCBhbmQgdGhlaXIgY29udGVudHMKCmBgYHtiYXNofQpybSAtciBmcV9BQgpybSAtciBmcV9ub3RBQgpgYGAKCiMgVXNpbmcgdGhlIGB7LH1gIGNvbnN0cnVjdCBjcmVhdGUgZml2ZSBkaXJlY3RvcmllcyBuYW1lZCBgZGlyX0FgLCBgZGlyX0NgLCBgZGlyX0VgLCBgZGlyX0dgLCBhbmQgYGRpcl9JYCwgYW5kIGxpc3QgdGhlbSAoYnV0IG5vdCB0aGVpciBjb250ZW50cykgd2hlbiB5b3UgYXJlIGRvbmUKCmBgYHtiYXNofQpta2RpciBkaXJfe0EsQyxFLEcsSX0KbHMgLWQgZGlyX3tBLEMsRSxHLEl9CmBgYAoKIyBVc2luZyBnbG9iYmluZywgcmVtb3ZlIGBkaXJfQWAsIGBkaXJfQ2AsIGBkaXJfRWAsIGBkaXJfR2AsIGFuZCBgZGlyX0lgLCB1c2luZyBhIGNvbW1hbmQgd2l0aCA4IGNoYXJhY3RlcnMgKGluY2x1ZGluZyBzcGFjZXMpCgpgYGB7YmFzaH0Kcm0gLXIgZCoKYGBgCgojIENyZWF0ZSBhIGRpcnJlY3RvcnkgY2FsbGVkIGBuaWNlX2Rpcl9uYW1lYCBhbmQgdGhlbiB1c2UgYGVjaG9gLCByZWRpcmVjdGluZyBpdHMgb3V0cHV0IHRvIGNyZWF0ZSBhIGZpbGUgY2FsbGVkIGBuaWNlX2ZpbGVfbmFtZWAgaW5zaWRlIG9mIGBuaWNlX2Rpcl9uYW1lYCB3aG9zZSBjb250ZW50cyBpcyB0aGUgc3RyaW5nIGBBIHN0cmluZyBpbiBhIGZpbGUhYAoKYGBge2Jhc2h9Cm1rZGlyIG5pY2VfZGlyX25hbWUKZWNobyAiQSBzdHJpbmcgaW4gYSBmaWxlIiA+IG5pY2VfZGlyX25hbWUvbmljZV9maWxlX25hbWUKYGBgCm5vdGU6IGVjaG8gd291bGRuJ3Qgd29yayB3aXRoIGkgZW5kZWQgIkEgc3RyaW5nIGluIGEgZmlsZSIgd2l0aCBhbiAhCgoKIyBDYXRlbmF0ZSB0aGUgY29udGVudHMgb2YgYG5pY2VfZGlyX25hbWUvbmljZV9maWxlX25hbWVgIHRvIF9zdGRvdXRfCgpgYGB7YmFzaH0KY2F0IG5pY2VfZGlyX25hbWUvbmljZV9maWxlX25hbWUKYGBgCgojIENyZWF0ZSBhIGRpcmVjdG9yeSBjYWxsZWQgYGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlc2AsIGFuZCB0aGVuLCB3aXRoIHJlZGlyZWN0aW9uLCBjcmVhdGUgYSBmaWxlIGluc2lkZSBpdCwgbmFtZWQgYGJhZCBmaWxlIG5hbWUgd2l0aCBzcGFjZXNgIHdob3NlIGNvbnRlbnRzIGFyZSB0aGUgc3RyaW5nIGBXaG9hISBObyBzcGFjZXMsIHBsZWFzZSFgLiAgVXNlIGJhY2tzbGFzaCBlc2NhcGluZyBpbnN0ZWFkIG9mIHF1b3RpbmcKCmBgYHtiYXNofQpta2RpciBiYWRcIGRpcmVjdG9yeVwgbmFtZVwgd2l0aFwgc3BhY2VzLyAKZWNobyAiV2hvYSwgTm8gc3BhY2VzLCBwbGVhc2UiID4gYmFkXCBkaXJlY3RvcnlcIG5hbWVcIHdpdGhcIHNwYWNlcy9iYWRcIGZpbGVcIG5hbWVcIHdpdGhcIHNwYWNlcwpgYGAKQWdhaW4sIGl0IGRpZCBub3Qgd29yayB3aXRoIHRoZSAhIHBvaW50cyBpbiB0aGUgc2VudGVuY2UuCgoKIyBDYXRlbmF0ZSB0aGUgY29udGVudHMgb2YgYGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlcy9iYWQgZmlsZSBuYW1lIHdpdGggc3BhY2VzYAoKYGBge2Jhc2h9CmNhdCBiYWRcIGRpcmVjdG9yeVwgbmFtZVwgd2l0aFwgc3BhY2VzL2JhZFwgZmlsZVwgbmFtZVwgd2l0aFwgc3BhY2VzIApgYGAKCiMgbGlzdCB0aGUgZGlyZWN0b3JpZXMgKGp1c3QgdGhlIG5hbWVzLCBub3QgdGhlIGNvbnRlbnRzIChgLWRgKSkgYGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlc2AgYW5kIGBuaWNlX2Rpcl9uYW1lYC4KCmBgYHtiYXNofQpscyAtZCBiYWRcIGRpcmVjdG9yeVwgbmFtZVwgd2l0aFwgc3BhY2VzLyBuaWNlX2Rpcl9uYW1lLwpgYGAKCiMgT25jZSB5b3UgYXJlIGNvbnZpbmNlZCB0aGF0IHlvdSBjYW4gbGlzdCB0aGUgZGlyZWN0b3JpZXMgY29ycmVjdGx5IGluIHlvdXIgdGVybWluYWwsIHJlY2FsbCB0aGF0IGBsc2AgY29tbWFuZCBhbmQgcmVwbGFjZSBgbHNgIHdpdGggYHJtIC1yYCB0byByZW1vdmUgdGhlbQoKYGBge2Jhc2h9CnJtIC1yIGJhZFwgZGlyZWN0b3J5XCBuYW1lXCB3aXRoXCBzcGFjZXMvIG5pY2VfZGlyX25hbWUvCmBgYAoKIyBXaHkgaXMgaXQgYSBnb29kIGlkZWEgdG8gYGxzYCB0aGluZ3MgYmVmb3JlIHJlbW92aW5nIHRoZW0/CgpgYGAKVG8gdGVzdCB3aGF0IHRoZSByZW1vdmUgY29tbWFuZCB3b3VsZCBhY3R1YWxseSByZW1vdmUuIEl0IGlzIGxpa2UgYSBwcmFjdGljZSBydW4uCmBgYAoKIyBJZiB5b3UgaGFkIGp1c3QgdHlwZWQgYHJtIC1yIGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlc2Agd2hhdCB3b3VsZCBVbml4IGhhdmUgdHJpZWQgdG8gcmVtb3ZlPwoKYGBgCkl0IHdvdWxkIGhhdmUgdHJpZWQgdG8gcmVtb3ZlIGEgZGlyZWN0b3J5IG5hbWVkIGJhZCwgYSBkaXJlY3RvcnkgbmFtZWQgZGlyZWN0b3J5IGFuZCBzbyBvbi4uLgpgYGAKCiMgVGhlcmUgYXJlIGJhbSwgc2FtLCBhbmQgZmFzdHEgZmlsZXMsIGluIHRoZSBhcHByb3ByaWF0ZWx5IG5hbWVkIGRpcmVjdG9yaWVzIGZvciBzYW1wbGUgYEEwNV9TNWAuIE1ha2UgYSBkaXJlY3RvcnkgbmFtZWQgYEEwNV9TNWAgYW5kIGNvcHkgYWxsIHRob3NlIGZpbGVzIGludG8gdGhhdCBuZXcgZGlyZWN0b3J5LiAgTGlzdCB0aGUgZGlyZWN0b3J5IHdoZW4geW91IGFyZSBkb25lLgoKYGBge2Jhc2h9Cm1rZGlyIEEwNV9TNSAKY3Agc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW0gQTA1X1M1CmNwIGJhbS9EUENoX3BsYXRlMV9BMDVfUzUuYmFtIEEwNV9TNQpjcCBmYXN0cS8qQTA1X1M1LlI/LmZxLmd6IEEwNV9TNQpgYGAKCiMgcmVtb3ZlIHRoZSBkaXJlY3RvcnkgYEEwNV9TNWAgYW5kIGl0cyBjb250ZW50cwoKYGBge2Jhc2h9CnJtIC1yIEEwNV9TNQpgYGAKCiMgVXNlIGBsc2AgdG8gdHJ5IHRvIGxpc3QgdGhlIGZpbGUgYGl0X2FpbnRfaGVyZWAKCmBgYHtiYXNofQpscyBpdF9haW50X2hlcmUKYGBgCgojIE5vdywgZG8gdGhlIHNhbWUgdGhpbmcgYnV0IHJlZGlyZWN0IF9zdGRlcnJfIGludG8gYSBmaWxlIGNhbGxlZCBgbXlfYmFkLnR4dGAsIGFuZCB0aGVuIGNhdGVuYXRlIHRoZSBjb250ZW50cyBvZiB0aGF0IGZpbGUsIGFuZCB0aGVuIHJlbW92ZSBpdAoKYGBge2Jhc2h9CmxzICJpdF9haW50X2hlcmUiIDI+IG15X2JhZC50eHQgCmNhdCBteV9iYWQudHh0IApybSBteV9iYWQudHh0IApgYGAKCiMgVGhlIGZpbGVzIGluIGBmYXN0cWAgYXJlIHRleHQgZmlsZXMsIGJ1dCB0aGV5IGFyZSBhbGwgZ3ppcHBlZC4gIFVzaW5nIGBnemNhdGAgYW5kIGEgcGlwZSwgdmlldyB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMS5mcS5nemAKCmBgYHtiYXNofQpnemNhdCBmYXN0cS9EUENoX3BsYXRlMV9DMTFfUzM1LlIxLmZxLmd6IHwgaGVhZCAKYGBgCgojIERvIHRoZSBzYW1lIHRvIHNlZSB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMi5mcS5nemAKCmBgYHtiYXNofQpnemNhdCBmYXN0cS9EUENoX3BsYXRlMV9DMTFfUzM1LlIyLmZxLmd6IHwgaGVhZApgYGAKCiMgV2hhdCBkbyB5b3Ugbm90aWNlIGFib3V0IHRoZSBuYW1lcyBvZiB0aGUgdHdvIHJlYWRzIGluIGVhY2ggZmlsZSAoTGluZXMgMSBhbmQgNSwgdGhhdCBzdGFydCB3aXRoIGEgYEBgKQoKYGBgCkkgbm90aWNlIHRoYXQgdGhleSBzdGFydCB3aXRoIGEgTk1GUyBJRDsgb2ggdGhleSBhcmUgdGhlIHNhbWUgYmV0d2VlbiB0aGUgdHdvIGZpbGVzIGV4Y2VwdCBmb3IgdGhlIGVuZGluZyB3aGljaCBpcyBhIDEgb3IgYSAyLiAKYGBgCgoKIyBQcmludCB0aGUgZGF0ZSwgcmVkaXJlY3QgaXQgdG8gYSBmaWxlIGNhbGxlZCBgbm93LnR4dGAsIGNhdGVuYXRlIHRoYXQgZmlsZSB0byBfc3Rkb3V0XyBhbmQgdGhlbiByZW1vdmUgaXQKCmBgYHtiYXNofQpkYXRlID4gbm93LnR4dApjYXQgbm93LnR4dApybSBub3cudHh0CmBgYAoKIyBDb3VudCB0aGUgbnVtYmVyIG9mIGxpbmVzL3dvcmRzL2NoYXJhY3RlcnMgKHVzaW5nIGB3Y2ApIGluIHRoZSB0d28gU0FNIGZpbGVzIGluIHRoZSBgc2FtYCBkaXJlY3RvcnkKCmBgYHtiYXNofQp3YyBzYW0vKgpgYGAKCiMgTm90ZSB0aGF0IGd6Y2F0IHdpbGwgZGVjb21wcmVzcyBhbGwgZmlsZXMgeW91IGdpdmUgaXQgYW5kIHNlbmQgdGhlIG91dHB1dCB0byBfc3Rkb3V0Xy4gIEtub3dpbmcgdGhpcywgY291bnQgaG93IG1hbnkgbGluZXMgYXJlIGluIGFsbCB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgIChhZnRlciBkZWNvbXByZXNzaW5nIHRoZW0gaW50byB0ZXh0IGZpbGVzKSwgYW5kIGFsc28gY291bnQgdXAgYWxsIHRoZSBsaW5lcyBpbiB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgLiAgTm90ZSB0aGV5IHNob3VsZCBiZSB0aGUgc2FtZS4KCmBgYHtiYXNofQp3YyBmYXN0cS8qUjEuZnEuZ3ogCmd6Y2F0IGZhc3RxLypSMS5mcS5neiB8IHdjCmBgYApJIGRvbid0IGdldCBpdC4gVGhlIG51bWJlcnMgYXJlIG5vdCB0aGUgc2FtZS4KCiMgTm93LCBnemNhdCBhbGwgdGhlIGBSMWAgZmlsZXMgaW4gYGZhc3RxYCBhbmQgcmVkaXJlY3QgdGhhdCB0byBhIGZpbGUgY2FsbGVkIGBSMV9hbGxfdmlhX2d6Y2F0LmZxYCBpbiB0aGUgdG9wIGRpcmVjdG9yeSBvZiB0aGUgcmVwbwoKYGBge2Jhc2h9Cmd6Y2F0IGZhc3RxLypSMSogPiBSMV9hbGxfdmlhX2d6Y2F0LmZxCmBgYAoKIyBQZW9wbGUgYXJlIHVzdWFsbHkgZmFtaWxpYXIgd2l0aCB1c2luZyBgY2F0YCB0byBjYXRlbmF0ZSB0ZXh0IGZpbGVzLiAgSXQgdHVybnMgb3V0IHRoYXQgeW91IGNhbiBhbHNvIGNhdGVuYXRlIGBnemlwYCBjb21wcmVzc2VkIGZpbGVzLiAgVGhlIHJlc3VsdCBpcyBhbm90aGVyIHByb3Blcmx5IGd6aXBwZWQgZmlsZSB0aGF0IGNhbiBiZSBkZWNvbXByZXNzZWQuICBDYXRlbmF0ZSBhbGwgdGhlIGd6aXBwZWQgYFIxYCBmaWxlcyBpbiBgZmFzdHFgIGludG8gYSBzaW5nbGUgKHN0aWxsIGd6aXBwZWQpIGZpbGUgY2FsbGVkIGBSMV9hbGxfdmlhX2NhdC5mcS5nemAKCmBgYHtiYXNofQpjYXQgZmFzdHEvKlIxKiA+IFIxX2FsbF92aWFfY2F0LmZxLmd6CmBgYAoKIyBDb3B5IGBSMV9hbGxfdmlhX2NhdC5mcS5nemAgdG8gYGNvcHlfb2ZfUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgCgpgYGB7YmFzaH0KY3AgUjFfYWxsX3ZpYV9jYXQuZnEuZ3ogY29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5negpgYGAKCiMgTm93LCBkZWNvbXByZXNzIGBSMV9hbGxfdmlhX2NhdC5mcS5nemAgaW50byBgUjFfYWxsX3ZpYV9jYXQuZnFgCgpgYGB7YmFzaH0KZ3VuemlwIFIxX2FsbF92aWFfY2F0LmZxLmd6CmBgYAoKIyBDb21wdXRlIHRoZSBTSEExIGhhc2hlcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgUjFfYWxsX3ZpYV9nemNhdC5mcWAgdG8gY29uZmlybSB0aGV5IGFyZSBpZGVudGljYWwKCmBgYHtiYXNofQpzaGFzdW0gUjFfYWxsX3ZpYV9jYXQuZnEKc2hhc3VtIFIxX2FsbF92aWFfZ3pjYXQuZnEKYGBgCgojIEJ1dCBub3csIGd6aXAgYFIxX2FsbF92aWFfZ3pjYXQuZnFgIGFuZCBjb21wYXJlIHRoZSByZXN1bHQgdG8gYGNvcHlfb2ZfUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgIGJ5IGNvbXB1dGluZyB0aGUgU0hBMSBoYXNoIG9mIGVhY2gKCmBgYHtiYXNofQpnemlwIFIxX2FsbF92aWFfZ3pjYXQuZnEKc2hhc3VtIFIxX2FsbF92aWFfZ3pjYXQuZnEuZ3oKc2hhc3VtIGNvcHlfb2ZfUjFfYWxsX3ZpYV9jYXQuZnEuZ3oKYGBgCgpOb3RlIHRoYXQgdGhpcyBzaG93cyB0aGF0LCBhbHRob3VnaCB0aGUgY29tcHJlc3NlZCBmaWxlcyBhcmUgbm90IGlkZW50aWNhbCwgdGhlaXIgY29udGVudHMgKG9uY2UgZGVjb21wcmVzc2VkLCBhcmUgaWRlbnRpY2FsKS4KCiMgdXNpbmcgYGR1YCB3aXRoIHRoZSBgLWhgIChpLmUuICJodW1hbiByZWFkYWJsZSIgb3B0aW9uKSBwcmludCB0aGUgZmlsZSBzaXplcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgY29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5nemAuCgpgYGB7YmFzaH0KZHUgLWggUjFfYWxsX3ZpYV9nemNhdC5mcSBjb3B5X29mX1IxX2FsbF92aWFfY2F0LmZxLmd6CmBgYAoKIyBCeSB3aGF0IGZhY3RvciAoYXBwcm94aW1hdGVseSkgZG9lcyB0aGUgY29tcHJlc3Npb24gc2F2ZSBzdG9yYWdlIHNwYWNlIG9uIHlvdXIgZGlzaz8KCmBgYApCeSBhbiBvcmRlciBvZiBtYWduaXR1ZGUKYGBgCgojIFJlbW92ZSBhbGwgZmlsZXMgc3RhcnRpbmcgd2l0aCBgUjFfYWxsYCBhbmQgYGNvcHlfb2ZfUjFgCgpgYGB7YmFzaH0Kcm0gKlIxX2FsbCoKYGBgCgojIE5vdywgcHJpbnQgdGhlIGZpbGUgc2l6ZXMgKHdpdGggYGR1IC1oYCwgYWdhaW4pIG9mIHRoZSBmaWxlcyBpbiBgYmFtYCB0byB0aGUgZmlsZXMgaW4gYHNhbWAKCmBgYHtiYXNofQpkdSAtaCBiYW0vKiAgc2FtLyoKYGBgCgoKIyBQcmludCB0aGUgbGFzdCAxNSBsaW5lcyBvZiBgc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW1gIHRvIF9zdGRvdXRfCgpgYGB7YmFzaH0KdGFpbCAtMTUgc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW0KYGBgCgpJZiBpdCBhbGwgbG9va3MgbGlrZSBnaWJiZXJpc2ggdG8geW91LCBkZXNwYWlyIG5vdCEgIFlvdSB3aWxsIGJlIHN1cGVyIGZhbWlsaWFyIHdpdGgKdGhpcyBmaWxlIGZvcm1hdCB3aXRoaW4gYSBjb3VwbGUgb2Ygd2Vla3MgZnJvbSBub3cuCgoKIyBQcmludCB0aGUgX2ZpcnN0XyAxNSBsaW5lcyBvZiBgc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW1gIHRvIF9zdGRvdXRfCgpgYGB7YmFzaH0KaGVhZCAtMTUgc2FtL0RQQ2hfcGxhdGUxX0EwNV9TNS5zYW0KYGBgCgojIENhdGVuYXRlIHRoZSBmaWxlIGBjb3VudF9maWxlcy5zaGAgdG8gX3N0ZG91dF8KCmBgYHtiYXNofQpjYXQgY291bnRfZmlsZXMuc2gKYGBgCgojIE5vdGUgdGhhdCBgY291bnRfZmlsZXMuc2hgIGlzIGEgc2hvcnQgc2hlbGwgc2NyaXB0LiBUcnkgdG8gZXhlY3V0ZSBpdCB3aXRoIGAuL2NvdW50X2ZpbGVzLnNoYAoKYGBge2Jhc2h9Ci4vY291bnRfZmlsZXMuc2gKYGBgCgpBaGEhIFlvdSBzaG91bGQgaGF2ZSBnb3R0ZW4gYSBwZXJtaXNzaW9uIGRlbmllZCBlcnJvci4gIDk5JSBvZiB0aGUgdGltZSB0aGF0IG9jY3VycyBiZWNhdXNlCnRoZSBmaWxlIGlzIG5vdCB1c2VyLWV4ZWN1dGFibGUuIC0gSSBkaWRuJ3QgZ2V0IGEgcGVybWlzc2lvbiBkZW5pZWQgZXJyb3IuCgojIExpc3QgKGxvbmcpIGBjb3VudF9maWxlcy5zaGAgdG8gc2VlIHdoYXQgdGhlIHBlcm1pc3Npb25zIGFyZSwgYW5kIHRoZW4gYWRkIGV4ZWN1dGUgKGB4YCkgcGVybWlzc2lvbnMgdG8gdXNlcnMgYW5kIGdyb3VwcyB3aXRoIHRoZSAiYWRkLW9yLXN1YnRyYWN0IHBlcm1pc3Npb25zIHN5bnRheCIgb2YgYGNobW9kYCwgdGhlbiBsb25nIGxpc3QgaXQgYWdhaW4KCmBgYHtiYXNofQpscyAtbCBjb3VudF9maWxlcy5zaApjaG1vZCA2NjQgY291bnRfZmlsZXMuc2gKbHMgLWwgY291bnQtZmlsZXMuc2gKY2htb2QgdWcreCBjb3VudF9maWxlcy5zaApscyAtbCBjb3VudF9maWxlcy5zaApgYGAKCgoKCiMgVXNlIGNobW9kIHRvIGNoYW5nZSBwZXJtaXNzaW9ucyBvZiB0aGUgZmlsZXMgaW4gdGhlIGBzaWxseWAgZGlyZWN0b3J5IHRvIG1hdGNoIHRoZWlyIG5hbWVzLiBGb3IgZXhhbXBsZSBmb3IgdGhlIGZpcnN0IG9uZSB5b3Ugd291bGQgdXNlOiBgY2htb2QgNzcwIEZJTEUtcnd4cnd4LS0tYC4gIFVzZSB0aGUgb2N0YWwgc3BlY2lmaWVycyB0byBgY2htb2RgLiBEbyB0aGlzIGZvciBhbGwgNSBmaWxlcyAob25lIGNobW9kIGNvbW1hbmQgZm9yIGVhY2gpLCBhbmQgYXQgdGhlIGVuZCBkbyBgbHMgLWwgc2lsbHlgIHRvIHZlcmlmeSB0aGV5IGFyZSBjb3JyZWN0LgoKYGBge2Jhc2h9CmNobW9kIDY0MCBzaWxseS9GSUxFLXJ3LXItLS0tLQpjaG1vZCA2NjQgc2lsbHkvRklMRS1ydy1ydy1yLS0KY2htb2QgNzQwIHNpbGx5L0ZJTEUtcnd4ci0tLS0tCmNobW9kIDc3NCBzaWxseS9GSUxFLXJ3eHJ3eHItLQpgYGAK</div>
 
 
 
